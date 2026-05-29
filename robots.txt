@@ -1,0 +1,53 @@
+# robots.txt — Karkor Haustechnik (karkorshk.de)
+# Policy: Trainings-Scraper blockieren, Live-Retrieval erlauben
+# Stand: 2026-05-29
+
+# ── Trainings-Scraper (blockiert) ─────────────────────────────────────────────
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+# ── Live-Retrieval (erlaubt) ───────────────────────────────────────────────────
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ── Alle anderen ──────────────────────────────────────────────────────────────
+User-agent: *
+Allow: /
+
+Sitemap: https://karkorshk.de/sitemap.xml

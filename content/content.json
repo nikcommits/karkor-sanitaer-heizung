@@ -1,0 +1,839 @@
+{
+  "meta": {
+    "title": "Karkor: Meisterbetrieb für Sanitär, Heizung, Klima in Krefeld",
+    "description": "Heizung ausgefallen, Bad veraltet oder Wärmepumpe geplant? Karkor Haustechnik: schriftlicher Festpreis, 30 Jahre Erfahrung, Rückmeldung innerhalb von 24 Stunden. Krefeld & Niederrhein.",
+    "language": "de"
+  },
+  "header": {
+    "phone": {
+      "display": "02151 350 7935",
+      "href": "tel:021513507935",
+      "hours": "Mo-Do 8-17 · Fr 8-14 · Sa 9-13 Uhr"
+    },
+    "cta": {
+      "text": "Termin anfragen",
+      "href": "#kontakt"
+    }
+  },
+  "hero": {
+    "eyebrow": "Sanitär · Heizung · Klima · Krefeld",
+    "title": "Meisterhandwerk<br/><span class=\"c-blue\">für</span> <span class=\"c-red\">Krefelder</span> <span class=\"c-yellow\">Häuser</span>",
+    "lead": "Warm bleiben, sauber wohnen, Energiekosten senken: mit einem Ansprechpartner, einem schriftlichen Festpreis und fast drei Jahrzehnten Erfahrung am Niederrhein.",
+    "cta_primary": {
+      "text": "Direkt anfragen <span class=\"arr\">→</span>",
+      "href": "#kontakt"
+    },
+    "cta_secondary": {
+      "text": "Kosten & Budget kalkulieren",
+      "href": "planer.html"
+    },
+    "trust": {
+      "years": "29",
+      "years_lbl": "Jahre Erfahrung",
+      "meister": "Meisterbetrieb",
+      "meister_lbl": "Innungsmitglied",
+      "price": "Festpreis",
+      "price_lbl": "Schriftlich vor Auftrag"
+    },
+    "cards": {
+      "badge": "Meisterbetrieb",
+      "badge_sub": "Innung Krefeld · seit 2007",
+      "rating": "4,9 / 5",
+      "rating_sub": "aus 184 Bewertungen"
+    },
+    "image": {
+      "src": "assets/hero.jpg",
+      "alt": "Heizungsanlage im modernen Wohnraum"
+    }
+  },
+  "trust_bar": [
+    {
+      "title": "30 Jahre Erfahrung",
+      "subtitle": "Krefeld & Umland",
+      "icon": "check"
+    },
+    {
+      "title": "Saubere Baustellen",
+      "subtitle": "Aufräumen inklusive",
+      "icon": "brush"
+    },
+    {
+      "title": "Festpreis schriftlich",
+      "subtitle": "Keine Überraschungen",
+      "icon": "price"
+    },
+    {
+      "title": "Meisterqualität",
+      "subtitle": "Innung Krefeld",
+      "icon": "star"
+    }
+  ],
+  "leistungen": {
+    "eyebrow": "Was wir für Sie regeln",
+    "title": "Vier Gewerke. Ein Meister. Ein Ansprechpartner.",
+    "lead": "Heizung, Bad, Wärmepumpe oder Klima: <strong>alles aus einer Hand</strong>, markenneutral beraten, förderfähig geplant, mit schriftlichem Festpreis vor Auftra      {
+        "num": "01",
+        "title": "Heizungstechnik",
+        "text": "Warm durch den Winter: mit der Anlage, die zu Ihrem Haus passt. Markenneutral beraten, sauber eingebaut und dokumentiert übergeben.",
+        "label": "Heizung · Brennwert",
+        "tag": "",
+        "href": "planer.html?trade=heizung",
+        "image": {
+          "src": "assets/heizung.jpg",
+          "alt": "Heizungsanlage mit Brennwert-Therme"
+        }
+      },
+      {
+        "num": "02",
+        "title": "Sanitär & Bad",
+        "text": "Ihr Bad, neu geplant: von der ersten 3D-Skizze bis zum fertigen Raum. Komplettsanierung, barrierefrei and alles aus einer Hand.",
+        "label": "Sanitär · Bad-Detail",
+        "tag": "",
+        "href": "planer.html?trade=badsanierung",
+        "image": {
+          "src": "assets/bad.jpg",
+          "alt": "Modernes Bad mit Doppel-Waschtisch"
+        }
+      },
+      {
+        "num": "03",
+        "title": "Wärmepumpen",
+        "text": "Bis zu 70 % Förderung. Wir prüfen, beantragen und installieren: KfW & BAFA aus einer Hand.",
+        "label": "Wärmepumpe · Außeneinheit",
+        "tag": "Förderung 2026",
+        "href": "planer.html?trade=waermepumpe",
+        "image": {
+          "src": "assets/waermepumpe.jpg",
+          "alt": "Wärmepumpe Außeneinheit an Hauswand"
+        }
+      },
+      {
+        "num": "04",
+        "title": "Klimatechnik",
+        "text": "Kühle Räume im Sommer, Wärme im Winter: sauber und diskret installiert, auch im Altbau. Heizfunktion inklusive.",
+        "label": "Klima · Split-Innengerät",
+        "tag": "",
+        "href": "planer.html?trade=split_klima",
+        "image": {
+          "src": "assets/klima.jpg",
+          "alt": "Split-Klima Innengerät an der Wand"
+        }
+      }nengerät an der Wand"
+        }
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Über Karkor",
+    "title": "Seit 2007 in Krefeld und immer am Niederrhein zu Hause.",
+    "lead": "Die Häuser hier kennen wir: Altbau, Reihenhaus, Neubau-Siedlung. Was dabei zählt: Wer kommt, macht die Arbeit ordentlich, erklärt, was er macht, und räumt danach auf. Drei Jahrzehnte übt man das nicht weg.",
+    "stats": [
+      {
+        "value": "30+",
+        "label": "Jahre Erfahrung"
+      },
+      {
+        "value": "1200+",
+        "label": "Anlagen montiert"
+      },
+      {
+        "value": "4,9",
+        "label": "Kundenbewertung"
+      }
+    ],
+    "bulletpoints": [
+      "Markenoffen: wir verkaufen, was zum Haus passt, nicht zum Lagerbestand.",
+      "Schriftlicher Festpreis vor Auftrag: keine Nachträge, keine Überraschungen.",
+      "Förderberatung KfW & BAFA inklusive: wir machen den Papierkrieg."
+    ],
+    "image": {
+      "src": "assets/werkstatt.jpg",
+      "alt": "Technische Heizungsanlage - Karkor Werkstatt"
+    }
+  },
+  "klara": {
+    "eyebrow": "Digitale Assistenz",
+    "title": "Kein Anrufbeantworter. Klara ist dran.",
+    "lead": "Klara ist unsere digitale Assistenz: Sie nimmt jeden Anruf an, notiert Ihr Anliegen vollständig und schlägt direkt einen Termin vor. Kein Rückruf ins Leere, kein doppeltes Erklären. Unser Team meldet sich verbindlich zurück.",
+    "steps": [
+      "Sie rufen an: Klara geht sofort ran, zu Bürozeiten wie außerhalb.",
+      "Anliegen, Adresse und Rückrufnummer werden sauber und vollständig erfasst.",
+      "Unser Team bestätigt Ihren Termin spätestens am nächsten Werktag."
+    ],
+    "chat": {
+      "bot_name": "Klara: digitale Assistenz",
+      "bot_status": "jetzt online · letzter Anruf vor 2 Min.",
+      "messages": [
+        {
+          "sender": "k",
+          "text": "Guten Tag, hier ist Klara von Karkor Haustechnik. Wie kann ich Ihnen helfen?"
+        },
+        {
+          "sender": "u",
+          "text": "Ich möchte einen Termin für eine Heizungswartung im Herbst."
+        },
+        {
+          "sender": "k",
+          "text": "Sehr gern. Ich schlage Ihnen drei Termine im Oktober vor und das Büro bestätigt morgen verbindlich.",
+          "meta": "21:43 · Termin vorgeschlagen"
+        }
+      ]
+    }
+  },
+  "ablauf": {
+    "eyebrow": "Transparenter Ablauf",
+    "title": "Drei Schritte, kein Theater.",
+    "lead": "Kein Hinterhertelefonieren, keine offenen Fragen. Jeder Schritt ist klar: was passiert, was Sie bekommen, wann es weitergeht.",
+    "steps": [
+      {
+        "num": "1",
+        "title": "Sie melden sich",
+        "text": "Telefon, Formular oder Klara: Wir bestätigen Ihren Termin spätestens am nächsten Werktag.",
+        "pill": "Rückmeldung innerhalb von 24h",
+        "class": ""
+      },
+      {
+        "num": "2",
+        "title": "Vor-Ort & Festpreis",
+        "text": "Ein Meister kommt vorbei, schaut sich die Anlage an und schickt einen schriftlichen Festpreis.",
+        "pill": "PDF-Angebot · 14 Tage gültig",
+        "class": "acc-blue"
+      },
+      {
+        "num": "3",
+        "title": "Wir bauen ein",
+        "text": "Saubere Baustelle, abgesprochene Termine, dokumentierte Abnahme und 5 Jahre Garantie.",
+        "pill": "Abnahme & Garantie",
+        "class": ""
+      }
+    ]
+  },
+  "kontakt": {
+    "eyebrow": "Anfrage starten",
+    "title": "Online kalkulieren oder direkt besprechen",
+    "lead": "Wählen Sie Ihren Weg: Berechnen Sie Ihr Budget vorab in wenigen Schritten mit unserem Online-Kalkulator oder rufen Sie uns an – unser Voice Agent Klara ist rund um die Uhr für Sie da.",
+    "cta_online": {
+      "text": "Kosten & Budget kalkulieren <span class=\"arr\">→</span>",
+      "href": "planer.html"
+    },
+    "cta_voice": {
+      "text": "Jetzt anrufen (Klara Voice)",
+      "href": "tel:021513507935"
+    },
+    "side_info": [
+      {
+        "icon": "phone",
+        "title": "02151 350 7935",
+        "text": "Rund um die Uhr erreichbar"
+      },
+      {
+        "icon": "email",
+        "title": "info@karkor-haustechnik.de",
+        "text": "Antwort innerhalb von 24h"
+      },
+      {
+        "icon": "star",
+        "title": "100% digitaler Ablauf",
+        "text": "Von der Kalkulation zum Angebot"
+      }
+    ]
+  },
+  "footer": {
+    "brand_desc": "Meisterbetrieb für Sanitär, Heizung, Klima & Wärmepumpen: seit 2007 in Krefeld und Umgebung.",
+    "hours": "Bürozeiten: Mo-Do 8-17 · Fr 8-14 · Sa 9-13 Uhr",
+    "col1_title": "Leistungen",
+    "col1_links": [
+      {
+        "text": "Heizungstechnik",
+        "href": "index.html#leistungen"
+      },
+      {
+        "text": "Sanitär & Bad",
+        "href": "index.html#leistungen"
+      },
+      {
+        "text": "Wärmepumpen",
+        "href": "index.html#leistungen"
+      },
+      {
+        "text": "Klimatechnik",
+        "href": "index.html#leistungen"
+      }
+    ],
+    "col2_title": "Service",
+    "col2_links": [
+      {
+        "text": "Wartung & Service",
+        "href": "index.html#kontakt"
+      },
+      {
+        "text": "Unsere Projekte",
+        "href": "projekte.html"
+      }
+    ],
+    "col3_title": "Kontakt",
+    "col3_links": [
+      {
+        "text": "02151 350 7935",
+        "href": "tel:021513507935"
+      },
+      {
+        "text": "info@karkor-haustechnik.de",
+        "href": "mailto:info@karkor-haustechnik.de"
+      }
+    ],
+    "copyright": "© 2026 Karkor Haustechnik. Alle Rechte vorbehalten.",
+    "bottom_links": [
+      {
+        "text": "Impressum",
+        "href": "impressum.html"
+      },
+      {
+        "text": "Datenschutz",
+        "href": "datenschutz.html"
+      }
+    ]
+  },
+  "impressum": {
+    "title": "Impressum",
+    "lead": "Angaben gemäß § 5 TMG",
+    "company": "Karkor Haustechnik",
+    "owner": "Inhaber: Abdel Karim Karkor",
+    "address_street": "Am Kempschen Weg 29a",
+    "address_city": "47804 Krefeld",
+    "contact_title": "Kontakt",
+    "phone": "Telefon: 02151 350 7935",
+    "email": "E-Mail: info@karkor-haustechnik.de",
+    "job_title": "Meisterbetrieb für Sanitär-, Heizungs- und Klimatechnik (Deutschland)",
+    "chamber": "Zuständige Kammer: Handwerkskammer Düsseldorf, Georg-Glock-Straße 18, 40474 Düsseldorf",
+    "regulations": "Berufsrechtliche Regelungen: Handwerksordnung (HwO) (abrufbar unter https://www.gesetze-im-internet.de/hwo/)",
+    "dispute_title": "Verbraucherstreitbeilegung",
+    "dispute_text": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+  },
+  "datenschutz": {
+    "title": "Datenschutzerklärung",
+    "lead": "Informationen über die Verarbeitung Ihrer personenbezogenen Daten",
+    "sections": [
+      {
+        "title": "1. Datenschutz auf einen Blick",
+        "text": "Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können."
+      },
+      {
+        "title": "2. Verantwortliche Stelle",
+        "text": "Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:<br/><br/><strong>Karkor Haustechnik</strong><br/>Abdel Karim Karkor<br/>Am Kempschen Weg 29a<br/>47804 Krefeld<br/><br/>Telefon: 02151 350 7935<br/>E-Mail: info@karkor-haustechnik.de"
+      },
+      {
+        "title": "3. Hosting und Server-Log-Files",
+        "text": "Diese Website wird auf Servern eines externen Dienstleisters gehostet (statisches Hosting). Bei der Nutzung der Website erhebt der Hoster automatisch Informationen, die Ihr Browser an uns übermittelt, und speichert diese in sogenannten Server-Log-Dateien. Dazu gehören IP-Adresse, Datum und Uhrzeit der Anfrage, Zeitzonendifferenz, abgerufene Seite, HTTP-Statuscode, übertragene Datenmenge, Website, von der die Anforderung kommt, sowie Browsertyp und Betriebssystem. Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO zur Gewährleistung eines stabilen und sicheren Website-Betriebs."
+      },
+      {
+        "title": "4. SSL- bzw. TLS-Verschlüsselung",
+        "text": "Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von „http://“ auf „https://“ wechselt und an dem Schloss-Symbol in Ihrer Browserzeile."
+      },
+      {
+        "title": "5. Ihre Rechte (Auskunft, Löschung, Sperrung)",
+        "text": "Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu."
+      }
+    ]
+  },
+  "projekte": {
+    "eyebrow": "Referenzen",
+    "title": "Unsere abgeschlossenen Projekte",
+    "lead": "Echte Handwerksqualität aus Krefeld und vom Niederrhein. Überzeugen Sie sich von unseren abgeschlossenen Badsanierungen und Sanitärarbeiten.",
+    "filters": [
+      { "id": "all", "label": "Alle Projekte" },
+      { "id": "luxus", "label": "Exklusive Bäder" },
+      { "id": "modern", "label": "Moderne Bäder" },
+      { "id": "kompakt", "label": "Kompaktbäder & WCs" }
+    ],
+    "items": [
+      {
+        "id": "projekt-a",
+        "title": "Exklusives Wellness-Badezimmer",
+        "location": "Krefeld-Bockum",
+        "category": "luxus",
+        "category_label": "Luxusbad",
+        "description": "Komplette Badsanierung eines großzügigen Masterbades. Freistehende Badewanne mit eleganter Standarmatur vor einer Wand aus weißem Marmor, bodengleiche Walk-In-Dusche mit Echtglas-Abtrennung, Doppelwaschtisch mit Holzunterschrank und beleuchtetem Design-Spiegel.",
+        "images": [
+          {
+            "src": "assets/projekte/badsanierung-krefeld-marmor-freistehende-badewanne.webp",
+            "alt": "Freistehende Badewanne vor einer Wand in weißer Marmoroptik bei einer Badsanierung in Krefeld-Bockum."
+          },
+          {
+            "src": "assets/projekte/badsanierung-krefeld-doppelwaschtisch-holz.webp",
+            "alt": "Doppelwaschtisch mit Echtholz-Unterschrank und großem, beleuchtetem LED-Spiegel im sanierten Badezimmer."
+          },
+          {
+            "src": "assets/projekte/badsanierung-krefeld-walk-in-dusche-glas.webp",
+            "alt": "Bodengleiche Walk-In-Dusche mit Regenduschkopf und rahmenloser Echtglas-Duschwand im modernisierten Bad."
+          },
+          {
+            "src": "assets/projekte/badsanierung-krefeld-luxusbad-gesamtansicht.webp",
+            "alt": "Gesamtansicht des exklusiven Masterbades mit freistehender Wanne, Walk-In-Dusche und Doppelwaschtisch."
+          },
+          {
+            "src": "assets/projekte/badsanierung-krefeld-marmoroptik-fliesen.webp",
+            "alt": "Großformatige Fliesen in kontrastreicher weißer und dunkelgrauer Marmoroptik im sanierten Luxusbad."
+          }
+        ]
+      },
+      {
+        "id": "projekt-b",
+        "title": "Design-Badezimmer mit LED-Konzept",
+        "location": "Krefeld-Verberg",
+        "category": "modern",
+        "category_label": "Modernes Bad",
+        "description": "Modernes Badezimmer-Konzept mit Fokus auf Beleuchtung und Naturmaterialien. Die Decke besticht durch bündig integrierte, lineare LED-Lichtbänder. Waschtischplatte aus massivem Altholz mit Baumkante und Aufsatzwaschbecken, wandmontierte Unterputz-Armatur, wandhängendes WC und ein großer, hinterleuchteter Spiegelschrank.",
+        "images": [
+          {
+            "src": "assets/projekte/modernes-bad-led-beleuchtung-holzwaschtisch.webp",
+            "alt": "Modernes Badezimmer mit linearer LED-Deckenbeleuchtung, Holzwaschtisch und wandhängendem WC in Krefeld."
+          },
+          {
+            "src": "assets/projekte/waschtisch-massivholz-wandarmatur-spiegelschrank.webp",
+            "alt": "Massivholz-Waschtischplatte mit wandbündiger Armatur und beleuchtetem Spiegelschrank im Design-Bad."
+          },
+          {
+            "src": "assets/projekte/bad-led-lichtlinien-deckenbeleuchtung.webp",
+            "alt": "Deckenbündig eingelassene LED-Streifen für blendfreie, indirekte Beleuchtung im sanierten Badezimmer."
+          }
+        ]
+      },
+      {
+        "id": "projekt-c",
+        "title": "Barrierefreie Walk-In-Dusche",
+        "location": "Kempen",
+        "category": "modern",
+        "category_label": "Modernes Bad",
+        "description": "Neubau einer bodengleichen Walk-In-Dusche mit Edelstahl-Ablaufrinne. Das visuelle Design lebt vom starken Kontrast: Die linke Wand mit integrierter, gefliester Sitzbank besteht aus weißen Marmorfliesen, die rechte Wand in tiefdunkler Marmoroptik mit eingelassener Nische als Duschablage.",
+        "images": [
+          {
+            "src": "assets/projekte/walk-in-dusche-marmor-sitzbank.webp",
+            "alt": "Barrierefreie Walk-In-Dusche mit gefliester Sitzbank aus weißem Marmor und Handbrause in Kempen."
+          },
+          {
+            "src": "assets/projekte/walk-in-dusche-kontrast-marmor.webp",
+            "alt": "Bodengleiche Dusche mit kontrastierenden Wandfliesen in weißem und schwarzem Marmor-Design."
+          },
+          {
+            "src": "assets/projekte/duschnische-unterputz-armatur-marmor.webp",
+            "alt": "Geflieste Wandnische in einer dunklen Marmor-Duschwand mit moderner Unterputz-Mischbatterie."
+          }
+        ]
+      },
+      {
+        "id": "projekt-d",
+        "title": "Kompaktes Dachgeschossbad",
+        "location": "Krefeld-Oppum",
+        "category": "kompakt",
+        "category_label": "Kompaktes Bad",
+        "description": "Perfekte Raumausnutzung eines kleinen Grundrisses unter der Dachschräge. Das wandhängende WC wurde platzsparend direkt unter dem Badezimmerfenster montiert, ergänzt durch eine Einbau-Badewanne, ein Waschbecken und einen vertikalen Handtuchheizkörper in Leiteroptik.",
+        "images": [
+          {
+            "src": "assets/projekte/kleines-badezimmer-dachschraege-wanne.webp",
+            "alt": "Kompaktes Badezimmer mit integrierter Badewanne, wandhängendem WC unter dem Fenster und Handtuchwärmer."
+          }
+        ]
+      },
+      {
+        "id": "projekt-e",
+        "title": "Modernes Gäste-WC",
+        "location": "Moers",
+        "category": "kompakt",
+        "category_label": "Gäste-WC",
+        "description": "Modernisierung eines Gäste-WCs mit einer halbhohen Vorwandinstallation, verkleidet mit großformatigen Fliesen in feiner Naturstein-Optik. Die Warmwasserbereitung erfolgt über einen platzsparenden, elektronischen Durchlauferhitzer.",
+        "images": [
+          {
+            "src": "assets/projekte/gaeste-wc-waschbecken-durchlauferhitzer.webp",
+            "alt": "Wandhängendes Waschbecken an einer gefliesten Vorwand mit installiertem Durchlauferhitzer im Gäste-WC."
+          }
+        ]
+      },
+      {
+        "id": "projekt-f",
+        "title": "Modernisiertes Wannenbad mit Design-Fittings",
+        "location": "Krefeld-Uerdingen",
+        "category": "modern",
+        "category_label": "Modernes Bad",
+        "description": "Hochwertige Modernisierung eines Wannenbades. Die eingebaute Badewanne wurde mit weißen, großformatigen Marmoroptik-Fliesen verkleidet. Highlights sind die minimalistischen, in die Wand eingelassenen Steuerungsarmaturen und die schlanke Stabhandbrause aus gebürstetem Edelstahl.",
+        "images": [
+          {
+            "src": "assets/projekte/badsanierung-einbau-badewanne.webp",
+            "alt": "Integrierte Badewanne mit weißer Marmor-Fliesenverkleidung während der Montagearbeiten."
+          },
+          {
+            "src": "assets/projekte/badewanne-armaturen-badsanierung.webp",
+            "alt": "Badewanneneinbau in Krefeld-Uerdingen mit installierten Wandarmaturen und Edelstahl-Stabbrause."
+          },
+          {
+            "src": "assets/projekte/unterputz-armatur-badewanne-edelstahl.webp",
+            "alt": "Detailansicht der wandbündig montierten Unterputz-Mischbatterie und Brausegarnitur aus gebürstetem Edelstahl."
+          }
+        ]
+      }
+    ]
+  },
+  "planer": {
+    "title": "Digitaler Erstberater",
+    "subtitle": "Qualifizieren Sie Ihr Projekt und erhalten Sie eine unverbindliche Budgetabschätzung in wenigen Schritten.",
+    "intro_btn": "Jetzt starten",
+    "btn_next": "Weiter",
+    "btn_back": "Zurück",
+    "btn_submit": "Anfrage absenden",
+    "rejection_title": "Projekt aktuell nicht möglich",
+    "success_title": "Ihr voraussichtliches Budget",
+    "rejection_sub": "Aufgrund Ihrer Angaben können wir dieses Projekt leider nicht direkt anbieten. Wir danken Ihnen dennoch für Ihr Interesse.",
+    "success_sub": "Vielen Dank für Ihre Angaben. Hier ist die unverbindliche Budgetabschätzung für Ihr Projekt:",
+    "email_subject": "Karkor Planer Anfrage - ",
+    "email_body_intro": "Hallo Karkor-Team,\n\nich habe den digitalen Planer ausgefüllt. Hier sind meine Projektdaten:\n\n",
+    "contact_info_title": "Ihre Kontaktdaten",
+    "contact_info_name": "Name",
+    "contact_info_email": "E-Mail-Adresse",
+    "contact_info_phone": "Telefonnummer",
+    "contact_info_address": "Ort / PLZ",
+    "services": {
+      "badsanierung": {
+        "title": "Badsanierung",
+        "description": "Komplett- oder Teilsanierung Ihres Badezimmers",
+        "questions": [
+          {
+            "id": "badgroesse",
+            "frage": "Wie groß ist Ihr Badezimmer in m²?",
+            "typ": "slider",
+            "min": 2,
+            "max": 30,
+            "default": 8,
+            "unit": "m²"
+          },
+          {
+            "id": "segment",
+            "frage": "Welche Qualitätsstufe wünschen Sie?",
+            "typ": "select",
+            "optionen": [
+              {"id": "standard_bad", "label": "Standard-Bad", "desc": "Solide Qualität, Standardkeramik, teilgeflieste Wände, einfache Duschabtrennung"},
+              {"id": "komfort_bad", "label": "Komfort-Bad", "desc": "Gehobene Ausstattung, bodengleiche Dusche, größere Fliesen, bessere Armaturen"},
+              {"id": "premium_bad", "label": "Premium-/Luxus-Bad", "desc": "Design-Ausstattung, freistehende Wanne, Design-Armaturen, XXL-Fliesen, fugenlos"}
+            ]
+          },
+          {
+            "id": "umfang",
+            "frage": "Welcher Umfang ist geplant?",
+            "typ": "select",
+            "optionen": [
+              {"id": "komplett_mit_leitungen", "label": "Komplette Badsanierung inkl. Leitungen", "desc": "Komplette Erneuerung aller Rohrleitungen und Sanitäranlagen"},
+              {"id": "komplett_ohne_leitungen", "label": "Komplette Badsanierung ohne Leitungswechsel", "desc": "Nur Austausch der Keramik und Fliesen"},
+              {"id": "teilsanierung", "label": "Teilsanierung (z.B. nur Dusche/WC)", "desc": "Punktuelle Modernisierung einzelner Bereiche"},
+              {"id": "nur_fliesen", "label": "Nur Oberflächen/Fliesen", "desc": "Ausschließlich neue Fliesen oder Wandbeläge"}
+            ]
+          },
+          {
+            "id": "zuschlaege",
+            "frage": "Wünschen Sie bestimmte Extras? (Mehrfachauswahl)",
+            "typ": "checkboxes",
+            "optionen": [
+              {"id": "walk_in_dusche", "label": "Bodengleiche Walk-in-Dusche", "desc": "+ 3.000 € - 7.000 €"},
+              {"id": "freistehende_wanne", "label": "Freistehende Badewanne", "desc": "+ 3.000 € - 8.000 €"},
+              {"id": "doppelwaschtisch", "label": "Doppelwaschtisch", "desc": "+ 2.500 € - 6.000 €"},
+              {"id": "rohrleitungswechsel", "label": "Austausch aller Leitungen im Bad", "desc": "+ 4.000 € - 12.000 €"}
+            ]
+          },
+          {
+            "id": "baujahr",
+            "frage": "In welchem Jahr wurde das Gebäude errichtet?",
+            "typ": "number",
+            "placeholder": "z.B. 1985",
+            "default": 1980
+          },
+          {
+            "id": "asbest_verdacht",
+            "frage": "Gibt es einen bestätigten Asbest-Verdacht?",
+            "typ": "select",
+            "optionen": [
+              {"id": "nein", "label": "Nein / Unbekannt", "desc": "Keine Hinweise auf Schadstoffe"},
+              {"id": "verdacht", "label": "Verdacht", "desc": "Schadstoffbelastung vermutet"},
+              {"id": "bestaetigt", "label": "Bestätigt (ohne Sanierungskonzept)", "desc": "Asbest nachgewiesen, keine Fachsanierung geplant"}
+            ]
+          },
+          {
+            "id": "budgetrahmen",
+            "frage": "Wie hoch ist Ihr geplantes Budget?",
+            "typ": "select",
+            "optionen": [
+              {"id": "unter_15", "label": "Unter 15.000 €", "desc": "Für kleinere Teilarbeiten"},
+              {"id": "15_25", "label": "15.000 € – 25.000 €", "desc": "Standard-Budget"},
+              {"id": "25_40", "label": "25.000 € – 40.000 €", "desc": "Komfort-Budget"},
+              {"id": "ueber_40", "label": "Über 40.000 €", "desc": "Premium-Budget"}
+            ]
+          }
+        ]
+      },
+      "waermepumpe": {
+        "title": "Wärmepumpe",
+        "description": "Installation einer modernen Luft-Wasser-Wärmepumpe",
+        "questions": [
+          {
+            "id": "paket",
+            "frage": "Welche Heizleistung wird voraussichtlich benötigt?",
+            "typ": "select",
+            "optionen": [
+              {"id": "lw_wp_bis_10kw", "label": "Bis 10 kW Heizlast", "desc": "Für Neubauten oder sehr gut gedämmte Einfamilienhäuser"},
+              {"id": "lw_wp_10_16kw", "label": "10 bis 16 kW Heizlast", "desc": "Für mittlere bis größere Einfamilienhäuser"},
+              {"id": "lw_wp_ueber_16kw", "label": "Über 16 kW Heizlast", "desc": "Für unsanierte Altbauten oder Mehrfamilienhäuser"}
+            ]
+          },
+          {
+            "id": "daemmstandard",
+            "frage": "Wie schätzen Sie den Dämmstandard des Hauses ein?",
+            "typ": "select",
+            "optionen": [
+              {"id": "neubau", "label": "Neubau / EnEV-Standard", "desc": "Sehr gute Energieeffizienz"},
+              {"id": "teilsaniert", "label": "Teilsaniert", "desc": "Fenster, Dach oder Fassade wurden modernisiert"},
+              {"id": "unsaniert", "label": "Unsaniert / Altbau", "desc": "Keine nennenswerte Dämmung vorhanden"}
+            ]
+          },
+          {
+            "id": "vorlauftemperatur",
+            "frage": "Welche Vorlauftemperatur wird an kalten Tagen benötigt?",
+            "typ": "select",
+            "optionen": [
+              {"id": "bis_45", "label": "Bis 45 °C", "desc": "Ideal für Wärmepumpen"},
+              {"id": "45_55", "label": "45 °C – 55 °C", "desc": "Gute Effizienz möglich"},
+              {"id": "ueber_55", "label": "Über 55 °C", "desc": "Eingeschränkte Wirtschaftlichkeit"},
+              {"id": "unsicher", "label": "Unbekannt / Unsicher", "desc": "Prüfen wir vor Ort"}
+            ]
+          },
+          {
+            "id": "waermeuebergabe",
+            "frage": "Welche Heizflächen sind überwiegend vorhanden?",
+            "typ": "select",
+            "optionen": [
+              {"id": "fussboden", "label": "Fußbodenheizung / Wandheizung", "desc": "Hervorragend geeignet"},
+              {"id": "heizkoerper_gross", "label": "Überdimensionierte Heizkörper", "desc": "Niedrige Vorlauftemperatur möglich"},
+              {"id": "heizkoerper_normal", "label": "Normale Radiatoren / Heizkörper", "desc": "Standard-Heizflächen"}
+            ]
+          },
+          {
+            "id": "aufstellort",
+            "frage": "Wo kann die Außeneinheit platziert werden?",
+            "typ": "select",
+            "optionen": [
+              {"id": "garten", "label": "Garten neben Haus", "desc": "Mindestens 3x3 m freie Fläche"},
+              {"id": "hof", "label": "Hof oder Terrasse", "desc": "Begrenzter Platz vorhanden"},
+              {"id": "dach", "label": "Dachmontage", "desc": "Auf dem Flach- oder Steildach"},
+              {"id": "keiner", "label": "Kein geeigneter Außenbereich", "desc": "Weder Garten noch Stellfläche vorhanden"}
+            ]
+          },
+          {
+            "id": "abstand_nachbar",
+            "frage": "Wie weit ist der Aufstellort von der Nachbargrenze entfernt?",
+            "typ": "select",
+            "optionen": [
+              {"id": "unter_1m", "label": "Unter 1 Meter", "desc": "Kritisch wegen TA Lärm"},
+              {"id": "1_3m", "label": "1 bis 3 Meter", "desc": "Regelfall, leise Geräte nötig"},
+              {"id": "ueber_3m", "label": "Über 3 Meter", "desc": "Unproblematisch"},
+              {"id": "unklar", "label": "Unklar / Muss gemessen werden", "desc": "Prüfen wir beim Vor-Ort-Termin"}
+            ]
+          },
+          {
+            "id": "stromanschluss",
+            "frage": "Ist ein Zählerschrank mit Reserve vorhanden?",
+            "typ": "select",
+            "optionen": [
+              {"id": "reserve", "label": "Ja, 3-phasiger Anschluss mit Reserve", "desc": "Keine Zählererweiterung nötig"},
+              {"id": "voll", "label": "Vorhanden, aber Zählerschrank voll", "desc": "Erweiterung/Umbau erforderlich"},
+              {"id": "unklar", "label": "Unklar / Eingeschränkte Leistung", "desc": "Prüfung durch Elektriker nötig"}
+            ]
+          },
+          {
+            "id": "extras",
+            "frage": "Wählen Sie optionale Zusatzarbeiten (Mehrfachauswahl)",
+            "typ": "checkboxes",
+            "optionen": [
+              {"id": "elektrik_ausbau", "label": "Zählerschrank/Elektrik-Erweiterung", "desc": "+ 1.500 € - 3.500 €"},
+              {"id": "oeltank_entsorgung", "label": "Entsorgung alter Öltank", "desc": "+ 3.000 € - 8.000 €"},
+              {"id": "asbest_heizraum", "label": "Asbest-Sanierung Heizungsraum", "desc": "+ 5.000 € - 15.000 €"},
+              {"id": "niedertemperatur_heizkoerper", "label": "Tausch auf NT-Heizkörper", "desc": "+ 8.000 € - 20.000 €"},
+              {"id": "fundament", "label": "Fundament für Außengerät", "desc": "+ 800 € - 2.500 €"}
+            ]
+          },
+          {
+            "id": "foerder_klimabonus",
+            "frage": "Ersetzen Sie eine funktionierende Öl-, Kohle-, Gasetagen-, Nachtspeicherheizung oder eine >20 Jahre alte Gas-/Biomasseheizung? (Klimabonus)",
+            "typ": "select",
+            "optionen": [
+              {"id": "ja", "label": "Ja", "desc": "Qualifiziert Sie für den Klimageschwindigkeits-Bonus (+20%)"},
+              {"id": "nein", "label": "Nein", "desc": "Kein vorzeitiger Tausch einer solchen Heizung"}
+            ]
+          },
+          {
+            "id": "foerder_einkommen",
+            "frage": "Liegt Ihr zu versteuerndes Haushaltseinkommen als selbstnutzender Eigentümer unter 40.000 €/Jahr? (Einkommensbonus)",
+            "typ": "select",
+            "optionen": [
+              {"id": "ja", "label": "Ja", "desc": "Einkommens-Bonus (+30%)"},
+              {"id": "nein", "label": "Nein", "desc": "Einkommen über der Grenze"}
+            ]
+          },
+          {
+            "id": "foerder_kaeltemittel",
+            "frage": "Wählen Sie eine Wärmepumpe mit natürlichem Kältemittel oder Erd-/Wasserwärme? (Effizienzbonus)",
+            "typ": "select",
+            "optionen": [
+              {"id": "ja", "label": "Ja, natürliches Kältemittel gewünscht", "desc": "Effizienz-Bonus (+5%)"},
+              {"id": "nein", "label": "Nein / Standard-Kältemittel", "desc": "Kein Effizienz-Bonus"}
+            ]
+          }
+        ]
+      },
+      "split_klima": {
+        "title": "Klimaanlage",
+        "description": "Split-Klimaanlage für angenehme Temperaturen",
+        "questions": [
+          {
+            "id": "raeume_anzahl",
+            "frage": "Wie viele Räume möchten Sie klimatisieren?",
+            "typ": "select",
+            "optionen": [
+              {"id": "single", "label": "1 Raum (Single-Split)", "desc": "Für einen Standardraum ca. 25-35 m²"},
+              {"id": "multi_2", "label": "2 Räume (Multi-Split)", "desc": "2 Innengeräte, 1 Außengerät"},
+              {"id": "multi_3_4", "label": "3–4 Räume (Multi-Split)", "desc": "3-4 Innengeräte, 1 Außengerät"}
+            ]
+          },
+          {
+            "id": "raumtyp",
+            "frage": "Um welchen Raumtyp handelt es sich primär?",
+            "typ": "select",
+            "optionen": [
+              {"id": "dach", "label": "Dachgeschoss", "desc": "Hohe Kühllast erforderlich"},
+              {"id": "wohnzimmer", "label": "Wohnzimmer", "desc": "Standard Kühllast"},
+              {"id": "schlafzimmer", "label": "Schlafzimmer", "desc": "Besonders leise Geräte empfohlen"},
+              {"id": "arbeitszimmer", "label": "Arbeitszimmer", "desc": "Standard Kühllast"},
+              {"id": "keller", "label": "Souterrain / Keller", "desc": "Geringe Kühllast"}
+            ]
+          },
+          {
+            "id": "aussenwand",
+            "frage": "Gibt es eine Außenwand in direkter Nähe des Innengeräts?",
+            "typ": "select",
+            "optionen": [
+              {"id": "ja_direkt", "label": "Ja, direkt dahinter", "desc": "Einfache Installation"},
+              {"id": "ja_weit", "label": "Ja, weiter entfernt", "desc": "Leitungstrasse erforderlich"},
+              {"id": "nein", "label": "Nein", "desc": "Kondensatpumpe oder Sonderweg nötig"}
+            ]
+          },
+          {
+            "id": "gebaeudeart",
+            "frage": "Welche Gebäudeart liegt vor?",
+            "typ": "select",
+            "optionen": [
+              {"id": "efh", "label": "Einfamilienhaus", "desc": "Freie Gestaltung"},
+              {"id": "etw", "label": "Eigentumswohnung", "desc": "WEG-Zustimmung erforderlich"},
+              {"id": "mietwohnung", "label": "Mietwohnung", "desc": "Vermieter-Zustimmung erforderlich"}
+            ]
+          },
+          {
+            "id": "weg_genehmigung",
+            "frage": "Liegt die Zustimmung der WEG bzw. des Vermieters vor?",
+            "typ": "select",
+            "optionen": [
+              {"id": "ja", "label": "Ja, schriftliche Zustimmung liegt vor", "desc": "Keine rechtlichen Hürden"},
+              {"id": "pruefung", "label": "Noch nicht, soll geprüft werden", "desc": "Wir unterstützen Sie bei Fragen"},
+              {"id": "nein", "label": "Nein / Ablehnende Haltung bekannt", "desc": "Montage rechtlich nicht zulässig"}
+            ]
+          },
+          {
+            "id": "denkmalschutz",
+            "frage": "Steht das Gebäude oder die Fassade unter Denkmalschutz?",
+            "typ": "select",
+            "optionen": [
+              {"id": "nein", "label": "Nein", "desc": "Standardmontage möglich"},
+              {"id": "ja", "label": "Ja", "desc": "Besondere Denkmalschutzauflagen vorhanden"},
+              {"id": "unklar", "label": "Unklar / Weiß nicht", "desc": "Muss abgeklärt werden"}
+            ]
+          },
+          {
+            "id": "extras",
+            "frage": "Wählen Sie preistreibende Faktoren (Mehrfachauswahl)",
+            "typ": "checkboxes",
+            "optionen": [
+              {"id": "leitung_lang", "label": "Leitungsweg > 5 m pro Gerät", "desc": "+ 40 € - 90 € pro Meter"},
+              {"id": "bohrung_beton", "label": "Kernbohrung in Beton/KS", "desc": "+ 150 € - 300 € pro Bohrung"},
+              {"id": "dachmontage", "label": "Dachmontage des Außengeräts", "desc": "+ 800 € - 2.500 €"},
+              {"id": "kondensatpumpe", "label": "Kondensatpumpe nötig", "desc": "+ 250 € - 600 €"}
+            ]
+          }
+        ]
+      },
+      "heizung": {
+        "title": "Heizung modernisieren",
+        "description": "Tausch auf moderne Gas-Brennwert- oder Hybridsysteme",
+        "questions": [
+          {
+            "id": "paket",
+            "frage": "Welche Heizungstechnik soll installiert werden?",
+            "typ": "select",
+            "optionen": [
+              {"id": "gas_solo", "label": "Gas-Brennwertgerät (Solo)", "desc": "Kompakter Kesseltausch"},
+              {"id": "gas_hybrid_ready", "label": "Gas-Brennwert mit Hybrid-Vorbereitung", "desc": "Bereit für Wärmepumpe/Solarthermie"},
+              {"id": "gas_solar_ww", "label": "Gas-Brennwert + Solarthermie Warmwasser", "desc": "Inkl. Solarkollektoren für Trinkwasser"},
+              {"id": "gas_solar_heizung", "label": "Gas-Brennwert + Solar Heizungsunterstützung", "desc": "Heizungsunterstützung & Warmwasser"}
+            ]
+          },
+          {
+            "id": "brennstoff_bisher",
+            "frage": "Welcher Brennstoff wird aktuell genutzt?",
+            "typ": "select",
+            "optionen": [
+              {"id": "erdgas", "label": "Erdgas", "desc": "Gasanschluss vorhanden"},
+              {"id": "fluessiggas", "label": "Flüssiggas", "desc": "Tank vorhanden oder geplant"},
+              {"id": "oel", "label": "Heizöl", "desc": "Tausch nötig, ggf. Tankentsorgung"},
+              {"id": "strom", "label": "Stromdirektheizung", "desc": "Hohe Betriebskosten bisher"},
+              {"id": "sonstiges", "label": "Sonstiges", "desc": "Holz, Kohle etc."}
+            ]
+          },
+          {
+            "id": "erdgasanschluss",
+            "frage": "Ist ein Erdgasanschluss im Gebäude vorhanden?",
+            "typ": "select",
+            "optionen": [
+              {"id": "ja", "label": "Ja", "desc": "Bestehender Anschluss nutzbar"},
+              {"id": "nein_flg", "label": "Nein, nur Flüssiggas möglich", "desc": "Flüssiggaskonzept nötig"},
+              {"id": "nein_kein", "label": "Nein, kein Gasanschluss vorhanden", "desc": "Kein Gasanschluss und kein Flüssiggas möglich"}
+            ]
+          },
+          {
+            "id": "abgassystem",
+            "frage": "Welches Abgassystem ist vorhanden?",
+            "typ": "select",
+            "optionen": [
+              {"id": "schornstein", "label": "Gemauerter Schornstein", "desc": "Kunststoffrohr-Einzug erforderlich"},
+              {"id": "las", "label": "Bereits Kunststoff-Abgasleitung (LAS)", "desc": "Ggf. direkt nutzbar"},
+              {"id": "aussenwand", "label": "Außenwandgerät ohne Schornstein", "desc": "Sonderabgasführung"},
+              {"id": "unklar", "label": "Unbekannt / Unsicher", "desc": "Prüfen wir vor Ort"}
+            ]
+          },
+          {
+            "id": "solardach",
+            "frage": "Ist das Dach für Solarthermie geeignet?",
+            "typ": "select",
+            "optionen": [
+              {"id": "ja", "label": "Ja, unverschattete Fläche vorhanden", "desc": "Ausrichtung Süd/Ost-West"},
+              {"id": "teilweise", "label": "Teilweise geeignet", "desc": "Ggf. reduzierte Erträge"},
+              {"id": "nein", "label": "Nein / Kaum geeignet", "desc": "Verschattung oder falsche Neigung"}
+            ]
+          },
+          {
+            "id": "extras",
+            "frage": "Zusätzliche Komponenten auswählen (Mehrfachauswahl)",
+            "typ": "checkboxes",
+            "optionen": [
+              {"id": "schornsteinsanierung", "label": "Schornsteinsanierung (Rohr einziehen)", "desc": "+ 1.500 € - 4.000 €"},
+              {"id": "gasanschluss_neu", "label": "Neuer Erdgas-Hausanschluss", "desc": "+ 2.500 € - 6.000 €"},
+              {"id": "fluessiggas_tank", "label": "Flüssiggas-Tank inkl. Aufstellung", "desc": "+ 3.500 € - 9.000 €"}
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

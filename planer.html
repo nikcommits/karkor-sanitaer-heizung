@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title data-ase="planer.title">Karkor: Digitaler Erstberater &amp; Budgetrechner</title>
+<meta name="description" content="Ermitteln Sie die Kosten und das Budget für Ihre Sanitär-, Heizungs-, Klimainstallation oder Wärmepumpe in Krefeld &amp; Niederrhein in wenigen Schritten." data-ase="planer.description" />
+<link rel="canonical" href="https://karkorshk.de/planer.html" />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="Karkor Haustechnik" />
+
+<!-- Lokale SEO -->
+<meta name="geo.region" content="DE-NW" />
+<meta name="geo.placename" content="Krefeld" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://karkorshk.de/planer.html" />
+<meta property="og:title" content="Karkor: Digitaler Erstberater &amp; Budgetrechner" />
+<meta property="og:description" content="Ermitteln Sie die Kosten und das Budget für Ihre Sanitär-, Heizungs-, Klimainstallation oder Wärmepumpe in Krefeld &amp; Niederrhein in wenigen Schritten." />
+<meta property="og:image" content="https://karkorshk.de/assets/hero.jpg" />
+<meta property="og:locale" content="de_DE" />
+<meta property="og:site_name" content="Karkor Haustechnik" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="karkor-tokens.css?v=3" />
+<link rel="stylesheet" href="styles/layout.css?v=3" />
+<link rel="stylesheet" href="styles/planer.css?v=3" />
+
+<style>
+  /* Hide sticky mobile action bar on the planer page to avoid covering up actions */
+  .mobile-action-bar {
+    display: none !important;
+  }
+</style>
+</head>
+<body>
+
+  <!-- ════════════════════════ HEADER ════════════════════════ -->
+  <header class="site">
+    <div class="wrap row">
+      <a href="index.html" aria-label="Karkor"><img src="assets/karkor-logo.png" alt="Karkor Haustechnik" class="logo" decoding="async"></a>
+      
+      <button class="menu-toggle" aria-label="Menü öffnen">☰</button>
+      <nav id="mobile-nav">
+        <a href="index.html#leistungen">Leistungen</a>
+        <a href="index.html#ueber">Über uns</a>
+        <a href="index.html#projekte">Projekte</a>
+        <a href="index.html#ablauf">Ablauf</a>
+        <a href="index.html#kontakt">Kontakt</a>
+      </nav>
+      <div class="ctas">
+        <a href="tel:021513507935" class="phone-mini">
+          <span class="ic">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display: block;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </span>
+          <span><b>02151 350 7935</b><span>Mo-Do 8-17 · Fr 8-14 · Sa 9-13 Uhr</span></span>
+        </a>
+        <a href="index.html#kontakt" class="btn btn-primary">Termin anfragen</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ════════════════════════ PLANER SECTION ════════════════════════ -->
+  <section class="planer-section">
+    <div class="wrap">
+      <div class="planer-container">
+        
+        <!-- Progress Bar -->
+        <div id="planer-progress-wrapper" class="planer-progress-wrapper" style="display: none;">
+          <div class="planer-progress-meta">
+            <span id="planer-progress-step-text">Schritt 1 von 5</span>
+            <span id="planer-progress-percent-text">0%</span>
+          </div>
+          <div class="planer-progress-bar-bg">
+            <div id="planer-progress-bar-fill" class="planer-progress-bar-fill"></div>
+          </div>
+        </div>
+
+        <!-- Planer Card Container where interactive steps render -->
+        <div id="planer-card-container">
+          <div style="text-align: center; padding: 40px 0;">
+            <p>Lade Erstberater...</p>
+          </div>
+        </div>
+
+        <noscript>
+          <div style="text-align: center; padding: 40px 20px; border: 1px solid #e5e7eb; border-radius: 12px; margin-top: 24px;">
+            <h2 style="margin-bottom: 12px;">JavaScript ist deaktiviert</h2>
+            <p>Der digitale Erstberater benötigt JavaScript. Rufen Sie uns alternativ direkt an oder schreiben Sie uns:</p>
+            <p style="margin-top: 16px;"><strong>Telefon:</strong> <a href="tel:021513507935">02151 350 7935</a></p>
+            <p><strong>E-Mail:</strong> <a href="mailto:info@karkor-haustechnik.de">info@karkor-haustechnik.de</a></p>
+          </div>
+        </noscript>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════ FOOTER ════════════════════════ -->
+  <footer class="site">
+    <div class="wrap">
+      <div class="top">
+        <div class="col brand-col">
+          <img src="assets/karkor-logo.png" alt="Karkor Haustechnik" decoding="async">
+          <p>Meisterbetrieb für Sanitär, Heizung, Klima &amp; Wärmepumpen: seit 2007 in Krefeld und Umgebung.</p>
+          <p class="footer-hours">Bürozeiten: Mo-Do 8-17 · Fr 8-14 · Sa 9-13 Uhr</p>
+        </div>
+        <div class="col">
+          <h4>Leistungen</h4>
+          <ul>
+            <li><a href="index.html#leistungen">Heizungstechnik</a></li>
+            <li><a href="index.html#leistungen">Sanitär &amp; Bad</a></li>
+            <li><a href="index.html#leistungen">Wärmepumpen</a></li>
+            <li><a href="index.html#leistungen">Klimatechnik</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>Service</h4>
+          <ul>
+            <li><a href="index.html#kontakt">Wartung &amp; Service</a></li>
+            <li><a href="projekte.html">Unsere Projekte</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>Kontakt</h4>
+          <ul>
+            <li><a href="tel:021513507935">02151 350 7935</a></li>
+            <li><a href="mailto:info@karkor-haustechnik.de">info@karkor-haustechnik.de</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom">
+        <span>© 2026 Karkor Haustechnik. Alle Rechte vorbehalten.</span>
+        <span>
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Content data: Planerfragen und Logik aus content.js -->
+  <script src="content/content.js?v=3"></script>
+  <!-- EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    emailjs.init({ publicKey: "YOUR_PUBLIC_KEY_HERE" });
+  </script>
+  <!-- Planer Script (loads AFTER content.js) -->
+  <script src="scripts/planer.js?v=3"></script>
+
+  <script>
+    // Hamburger Menu Logic
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.getElementById('mobile-nav');
+    if(toggle && nav) {
+      toggle.addEventListener('click', () => {
+        nav.classList.toggle('is-open');
+        toggle.innerHTML = nav.classList.contains('is-open') ? '✕' : '☰';
+      });
+    }
+  </script>
+
+</body>
+</html>

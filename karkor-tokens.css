@@ -1,0 +1,163 @@
+/* ───────────────────────────────────────────
+   Karkor — Engineering / Handwerker-Premium
+   Shared design tokens for variants A & B
+   ─────────────────────────────────────────── */
+:root{
+  --blue:       #1B9BD8;
+  --blue-deep:  #0C6FA1;
+  --blue-ink:   #0A4870;
+  --blue-tint:  #E8F3FA;
+  --blue-tint2: #F4F9FC;
+  --red:        #DC2924;
+  --red-soft:   #FBE8E6;
+  --yellow:     #FBC91A;
+  --yellow-soft:#FFF4C9;
+  --ink:        #0F1620;
+  --ink-2:      #2A323F;
+  --ink-3:      #5A6478;
+  --mute:       #8B92A0;
+  --hair:       #E5E8EE;
+  --hair-2:     #EEF1F5;
+  --paper:      #FFFFFF;
+  --paper-2:    #F7F9FB;
+  --paper-3:    #EEF2F6;
+  --shadow-sm:  0 1px 0 rgba(15,22,32,.04), 0 4px 14px -8px rgba(15,22,32,.12);
+  --shadow-md:  0 1px 0 rgba(15,22,32,.04), 0 12px 40px -16px rgba(15,22,32,.18);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family:'Inter', system-ui, sans-serif;
+  color:var(--ink);
+  background:var(--paper);
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  line-height:1.55;
+  font-size:15px;
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+button{font-family:inherit;cursor:pointer}
+
+/* Typography */
+.h1{font-size:54px;line-height:1.05;letter-spacing:-.025em;font-weight:700;margin:0}
+.h2{font-size:38px;line-height:1.1;letter-spacing:-.02em;font-weight:700;margin:0}
+.h3{font-size:22px;line-height:1.25;letter-spacing:-.01em;font-weight:700;margin:0}
+.h4{font-size:16px;line-height:1.35;letter-spacing:-.005em;font-weight:700;margin:0}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:10px;
+  font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--blue-deep);
+}
+.eyebrow::before{content:"";width:24px;height:2px;background:var(--blue)}
+.lead{font-size:17px;line-height:1.6;color:var(--ink-3);margin:0}
+.body{font-size:15px;line-height:1.6;color:var(--ink-3);margin:0}
+.tiny{font-size:12px;line-height:1.5;color:var(--mute);font-weight:500}
+
+/* Buttons */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  padding:14px 22px;border-radius:8px;border:1.5px solid transparent;
+  font-size:14px;font-weight:600;letter-spacing:.01em;
+  transition:transform .12s, background .15s, color .15s, box-shadow .15s;
+}
+.btn:active{transform:translateY(1px)}
+.btn-primary{background:var(--blue);color:#fff;box-shadow:0 4px 14px -6px rgba(27,155,216,.6)}
+.btn-primary:hover{background:var(--blue-deep)}
+.btn-outline{background:transparent;color:var(--ink);border-color:var(--hair)}
+.btn-outline:hover{border-color:var(--ink);background:var(--ink);color:#fff}
+.btn-dark{background:var(--ink);color:#fff}
+.btn-dark:hover{background:var(--blue-deep)}
+.btn .arr{font-size:16px;line-height:1}
+
+/* Wrap */
+.wrap{max-width:1280px;margin:0 auto;padding:0 32px}
+
+/* Header — shared */
+header.site{
+  background:var(--paper);
+  border-bottom:1px solid var(--hair);
+}
+header.site .row{display:flex;align-items:center;justify-content:space-between;padding:18px 0;gap:24px}
+header.site .logo{height:42px}
+header.site nav{display:flex;gap:30px}
+header.site nav a{font-size:14px;font-weight:600;color:var(--ink-2)}
+header.site nav a:hover{color:var(--blue)}
+header.site .ctas{display:flex;gap:10px;align-items:center}
+header.site .phone-mini{
+  display:flex;align-items:center;gap:10px;font-size:13px;font-weight:600;color:var(--ink-2);
+}
+header.site .phone-mini .ic{
+  width:32px;height:32px;border-radius:50%;background:var(--blue-tint);color:var(--blue-deep);
+  display:inline-flex;align-items:center;justify-content:center;
+}
+header.site .phone-mini b{font-size:14px;color:var(--ink);display:block;line-height:1.1}
+header.site .phone-mini span{display:block;font-size:11px;color:var(--mute);margin-top:1px}
+
+/* Photo placeholder — looks intentional, not broken */
+.photo{
+  position:relative;
+  background:linear-gradient(135deg, #d8dde6 0%, #c2cad6 60%, #aab3c2 100%);
+  overflow:hidden;
+  border-radius:14px;
+  color:#fff;
+  isolation:isolate;
+}
+.photo::before{
+  content:"";position:absolute;inset:0;
+  background-image:
+    radial-gradient(circle at 30% 30%, rgba(255,255,255,.25) 0, transparent 40%),
+    radial-gradient(circle at 70% 70%, rgba(15,22,32,.15) 0, transparent 50%);
+  pointer-events:none;
+}
+.photo::after{
+  content:"";position:absolute;inset:0;
+  background:
+    radial-gradient(circle at 50% 38%, rgba(255,255,255,.4) 0 38px, transparent 70px),
+    radial-gradient(ellipse at 50% 76%, rgba(255,255,255,.18) 0 90px, transparent 200px);
+  filter:blur(.5px);
+  opacity:.7;
+  mix-blend-mode:soft-light;
+}
+.photo .ph-lbl{
+  position:absolute;left:14px;bottom:12px;z-index:1;
+  font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  color:rgba(255,255,255,.85);
+}
+.photo.has-img{background:#0a0a0a !important}
+  .photo.has-img::before,.photo.has-img::after{display:none}
+  .photo.has-img > img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+  .photo.has-img .ph-lbl{display:none}
+
+/* Tag overlays for photos */
+.photo .tag{
+  position:absolute;left:14px;top:14px;z-index:1;
+  display:inline-flex;align-items:center;gap:6px;
+  background:rgba(255,255,255,.95);color:var(--ink);
+  padding:7px 11px;border-radius:999px;
+  font-size:11px;font-weight:700;letter-spacing:.04em;
+  box-shadow:0 4px 12px -4px rgba(15,22,32,.18);
+}
+.photo .tag .ic{width:14px;height:14px;border-radius:50%;background:var(--blue);display:inline-block}
+.photo .tag.r .ic{background:var(--red)}
+.photo .tag.y .ic{background:var(--yellow)}
+
+/* Footer — shared */
+footer.site{
+  background:var(--paper-2);color:var(--ink-3);
+  padding:56px 0 24px;margin-top:0;
+  border-top:1px solid var(--hair);
+}
+footer.site .top{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:48px}
+footer.site .col h4{font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);margin:0 0 16px}
+footer.site .col ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px}
+footer.site .col a{font-size:14px;color:var(--ink-2);transition:color .15s}
+footer.site .col a:hover{color:var(--blue)}
+footer.site .brand-col p{font-size:13px;line-height:1.55;color:var(--ink-3);margin:16px 0 0;max-width:34ch}
+footer.site .brand-col img{height:42px}
+footer.site .bottom{
+  border-top:1px solid var(--hair);margin-top:40px;padding-top:18px;
+  display:flex;justify-content:space-between;font-size:12px;color:var(--mute);
+}
+footer.site .bottom a{color:var(--ink-3);margin-left:18px;transition:color .15s}
+footer.site .bottom a:hover{color:var(--blue)}

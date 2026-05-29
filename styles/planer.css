@@ -1,0 +1,549 @@
+/* ───────────────────────────────────────────
+   Karkor — Planer CSS (Digital Lead Qualifier)
+   ─────────────────────────────────────────── */
+
+.planer-section {
+  padding: 64px 0 96px;
+  background: var(--paper-2);
+  min-height: calc(100vh - 180px);
+}
+
+.planer-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: var(--paper);
+  border: 1px solid var(--hair);
+  border-radius: 20px;
+  box-shadow: var(--shadow-md);
+  padding: 48px;
+  position: relative;
+  overflow: hidden;
+  transition: min-height 0.3s ease;
+}
+
+@media (max-width: 640px) {
+  .planer-section {
+    padding: 32px 0 64px;
+  }
+  .planer-container {
+    padding: 24px 20px;
+    border-radius: 12px;
+  }
+}
+
+/* Progress Indicator */
+.planer-progress-wrapper {
+  margin-bottom: 40px;
+}
+
+.planer-progress-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-3);
+}
+
+.planer-progress-bar-bg {
+  height: 6px;
+  background: var(--paper-3);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.planer-progress-bar-fill {
+  height: 100%;
+  width: 0%;
+  background: var(--blue);
+  border-radius: 10px;
+  transition: width 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Step Container */
+.planer-step {
+  display: none;
+}
+
+.planer-step.active {
+  display: block;
+  animation: stepFadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes stepFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.planer-step-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0 0 12px;
+  line-height: 1.25;
+}
+
+.planer-step-desc {
+  font-size: 15px;
+  color: var(--ink-3);
+  margin: 0 0 32px;
+  line-height: 1.6;
+}
+
+/* Option Grid (Select Cards) */
+.options-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.option-card {
+  background: var(--paper);
+  border: 1.5px solid var(--hair);
+  border-radius: 12px;
+  padding: 20px 24px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.option-card:hover {
+  border-color: var(--blue);
+  background: var(--paper-2);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.option-card.selected {
+  border-color: var(--blue);
+  background: var(--blue-tint2);
+  box-shadow: 0 0 0 1px var(--blue);
+}
+
+/* Radio & Checkbox Styles within Cards */
+.option-input-indicator {
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--mute);
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+}
+
+.option-card.selected .option-input-indicator {
+  border-color: var(--blue);
+  background: var(--blue);
+}
+
+.option-card.selected .option-input-indicator::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+/* Checkbox specific indicator styling */
+.option-card.checkbox-type .option-input-indicator {
+  border-radius: 4px;
+}
+
+.option-card.checkbox-type.selected .option-input-indicator::after {
+  content: "✓";
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  background: none;
+  border-radius: 0;
+  width: auto;
+  height: auto;
+}
+
+.option-card-content {
+  flex: 1;
+}
+
+.option-card-label {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+
+.option-card-desc {
+  font-size: 13px;
+  color: var(--ink-3);
+  line-height: 1.5;
+}
+
+/* Range Slider */
+.slider-container {
+  margin-bottom: 32px;
+  background: var(--paper-2);
+  border: 1px solid var(--hair);
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+}
+
+.slider-val-display {
+  font-family: 'Outfit', sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--blue-deep);
+  margin-bottom: 24px;
+  line-height: 1;
+}
+
+.slider-val-display span {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--ink-3);
+  margin-left: 4px;
+}
+
+.planer-range-input {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 8px;
+  background: var(--hair);
+  border-radius: 5px;
+  outline: none;
+  margin: 10px 0;
+}
+
+.planer-range-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--blue);
+  cursor: pointer;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+.planer-range-input::-webkit-slider-thumb:hover {
+  background: var(--blue-deep);
+  transform: scale(1.1);
+}
+
+.slider-limits {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--mute);
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+/* Number / Text Inputs */
+.input-container {
+  margin-bottom: 32px;
+}
+
+.planer-text-input {
+  width: 100%;
+  padding: 16px 20px;
+  font-size: 16px;
+  border: 1.5px solid var(--hair);
+  border-radius: 8px;
+  color: var(--ink);
+  outline: none;
+  transition: all 0.15s ease;
+}
+
+.planer-text-input:focus {
+  border-color: var(--blue);
+  box-shadow: 0 0 0 3px var(--blue-tint);
+}
+
+.planer-text-input::placeholder {
+  color: var(--mute);
+}
+
+/* Navigation Buttons */
+.planer-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--hair);
+  margin-top: 40px;
+  padding-top: 24px;
+}
+
+.planer-actions .btn {
+  padding: 14px 28px;
+}
+
+/* Soft Warning Banner (e.g. Asbest or Mietwohnung) */
+.planer-warning-banner {
+  background: var(--yellow-soft);
+  border: 1px solid var(--yellow);
+  border-radius: 8px;
+  padding: 16px 20px;
+  color: var(--ink-2);
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.planer-warning-banner::before {
+  content: "⚠";
+  font-size: 18px;
+  color: var(--ink);
+  line-height: 1;
+}
+
+/* Rejection Screen */
+.planer-rejection-card {
+  text-align: center;
+  padding: 32px 0;
+}
+
+.planer-rejection-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--red-soft);
+  color: var(--red);
+  font-size: 32px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+}
+
+.planer-rejection-reason {
+  background: var(--paper-2);
+  border: 1px solid var(--hair);
+  border-radius: 8px;
+  padding: 16px 20px;
+  font-size: 14px;
+  color: var(--ink-3);
+  margin: 24px 0 32px;
+  line-height: 1.6;
+}
+
+/* Results Screen */
+.planer-results-budget-card {
+  background: var(--blue-tint2);
+  border: 1.5px solid var(--blue-tint);
+  border-radius: 16px;
+  padding: 32px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.planer-results-budget-label {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--blue-deep);
+  margin-bottom: 12px;
+}
+
+.planer-results-budget-value {
+  font-family: 'Outfit', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--ink);
+  line-height: 1.1;
+  margin-bottom: 8px;
+}
+
+.planer-results-budget-span {
+  font-size: 13px;
+  color: var(--mute);
+  font-weight: 500;
+}
+
+/* Subsidy Box */
+.planer-results-subsidy-card {
+  background: var(--yellow-soft);
+  border: 1.5px solid var(--yellow);
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 32px;
+}
+
+.planer-results-subsidy-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--ink);
+}
+
+.planer-results-subsidy-header .percent {
+  color: var(--blue-deep);
+  background: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+  border: 1px solid var(--yellow);
+}
+
+.planer-results-subsidy-detail {
+  font-size: 13px;
+  color: var(--ink-3);
+  line-height: 1.5;
+}
+
+/* Summary Table */
+.planer-summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 32px;
+}
+
+.planer-summary-table tr {
+  border-bottom: 1px solid var(--hair-2);
+}
+
+.planer-summary-table td {
+  padding: 12px 0;
+  font-size: 14px;
+}
+
+.planer-summary-table td.label {
+  color: var(--ink-3);
+  font-weight: 500;
+}
+
+.planer-summary-table td.value {
+  color: var(--ink);
+  font-weight: 700;
+  text-align: right;
+}
+
+/* Contact Info Form inside Planer */
+.planer-contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 640px) {
+  .planer-contact-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
+
+.planer-contact-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.planer-contact-field label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink-3);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.planer-contact-field input {
+  padding: 12px 16px;
+  font-size: 14px;
+  border: 1.5px solid var(--hair);
+  border-radius: 6px;
+  outline: none;
+  transition: all 0.15s ease;
+}
+
+.planer-contact-field input:focus {
+  border-color: var(--blue);
+  box-shadow: 0 0 0 2px var(--blue-tint);
+}
+
+/* Bestätigungsscreen nach erfolgreichem Submit */
+.planer-confirmation-card {
+  text-align: center;
+  padding: 32px 0;
+}
+
+.planer-confirmation-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #dcfce7;
+  color: #16a34a;
+  font-size: 36px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 28px;
+}
+
+.planer-confirmation-details {
+  background: var(--paper-2);
+  border: 1px solid var(--hair);
+  border-radius: 8px;
+  padding: 16px 20px;
+  font-size: 14px;
+  color: var(--ink-3);
+  margin: 24px 0 0;
+  line-height: 1.6;
+}
+
+.planer-confirmation-details a {
+  color: var(--blue-deep);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.planer-confirmation-details a:hover {
+  text-decoration: underline;
+}
+
+/* Optionales Budget-Feld im Wizard */
+.planer-budget-optional-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 640px) {
+  .planer-budget-optional-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.planer-textarea {
+  min-height: 120px;
+  resize: vertical;
+  font-family: inherit;
+  line-height: 1.6;
+}

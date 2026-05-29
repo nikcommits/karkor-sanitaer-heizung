@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "karkor-shk",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "-l", "3800", "."],
+      "port": 3800
+    }
+  ]
+}
