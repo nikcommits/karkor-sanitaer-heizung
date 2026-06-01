@@ -8,7 +8,6 @@ Karkor Haustechnik ist ein eingetragener Innungsbetrieb aus Krefeld (NRW) mit 30
 
 - [Startseite](https://karkorshk.de/): Überblick aller Leistungen — Heizung, Sanitär, Wärmepumpe, Klimatechnik
 - [Projekte](https://karkorshk.de/projekte.html): Abgeschlossene Referenzprojekte — Badsanierungen, Walk-In-Duschen, Luxusbäder in Krefeld und Umgebung
-- [Budget-Kalkulator](https://karkorshk.de/planer.html): Digitaler Erstberater für Badsanierung, Wärmepumpe, Klimaanlage und Heizungsmodernisierung
 
 ## Besonderheiten
 
