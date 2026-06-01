@@ -20,7 +20,6 @@ window.__ASE_CONTENT__ = {
     "title": "Meisterhandwerk<br/><span class=\"c-blue\">für</span> <span class=\"c-red\">Krefelder</span> <span class=\"c-yellow\">Häuser</span>",
     "lead": "Warm bleiben, sauber wohnen, Energiekosten senken: mit einem Ansprechpartner, einem schriftlichen Festpreis und 30 Jahren Erfahrung am Niederrhein.",
     "cta_primary": { "text": "Direkt anfragen <span class=\"arr\">→</span>", "href": "#kontakt" },
-    "cta_secondary": { "text": "Detaillierte Anfrage starten <span class=\"arr\">→</span>", "href": "planer.html" },
     "trust": {
       "years": "30",
       "years_lbl": "Jahre Erfahrung",
@@ -51,25 +50,25 @@ window.__ASE_CONTENT__ = {
       {
         "num": "01", "title": "Heizungstechnik",
         "text": "Warm durch den Winter: mit der Anlage, die zu Ihrem Haus passt. Markenneutral beraten, sauber eingebaut und dokumentiert übergeben.",
-        "label": "Heizung · Brennwert", "tag": "", "href": "planer.html",
+        "label": "Heizung · Brennwert", "tag": "", "href": "#kontakt",
         "image": { "src": "assets/heizung.jpg", "alt": "Heizungsanlage mit Brennwert-Therme" }
       },
       {
         "num": "02", "title": "Sanitär & Bad",
         "text": "Ihr Bad, neu geplant: von der ersten 3D-Skizze bis zum fertigen Raum. Komplettsanierung, barrierefrei und alles aus einer Hand.",
-        "label": "Sanitär · Bad-Detail", "tag": "", "href": "planer.html",
+        "label": "Sanitär · Bad-Detail", "tag": "", "href": "#kontakt",
         "image": { "src": "assets/bad.jpg", "alt": "Modernes Bad mit Doppel-Waschtisch" }
       },
       {
         "num": "03", "title": "Wärmepumpen",
         "text": "Bis zu 70 % Förderung. Wir prüfen, beantragen und installieren: KfW & BAFA aus einer Hand.",
-        "label": "Wärmepumpe · Außeneinheit", "tag": "Förderung 2026", "href": "planer.html",
+        "label": "Wärmepumpe · Außeneinheit", "tag": "Förderung 2026", "href": "#kontakt",
         "image": { "src": "assets/waermepumpe.jpg", "alt": "Wärmepumpe Außeneinheit an Hauswand" }
       },
       {
         "num": "04", "title": "Klimatechnik",
         "text": "Kühle Räume im Sommer, Wärme im Winter: sauber und diskret installiert, auch im Altbau. Heizfunktion inklusive.",
-        "label": "Klima · Split-Innengerät", "tag": "", "href": "planer.html",
+        "label": "Klima · Split-Innengerät", "tag": "", "href": "#kontakt",
         "image": { "src": "assets/klima.jpg", "alt": "Split-Klima Innengerät an der Wand" }
       }
     ]
@@ -121,11 +120,11 @@ window.__ASE_CONTENT__ = {
   },
   "kontakt": {
     "eyebrow": "Anfrage starten",
-    "title": "Online kalkulieren oder direkt besprechen",
-    "lead": "Wählen Sie Ihren Weg: Berechnen Sie Ihr Budget vorab in wenigen Schritten mit unserem Online-Kalkulator oder rufen Sie uns an – unser Voice Agent Klara ist rund um die Uhr für Sie da.",
+    "title": "In 60 Sekunden zum Festpreis-Termin.",
+    "lead": "Schicken Sie uns Ihr Anliegen: Wir melden uns binnen 24 Stunden mit einem konkreten Vorschlag. Echter Meister, kein Callcenter.",
     "cta_online": {
-      "text": "Kosten & Budget kalkulieren <span class=\"arr\">→</span>",
-      "href": "planer.html"
+      "text": "Jetzt anfragen <span class=\"arr\">→</span>",
+      "href": "#kontakt"
     },
     "cta_voice": {
       "text": "Jetzt anrufen (Klara Voice)",
@@ -134,7 +133,7 @@ window.__ASE_CONTENT__ = {
     "side_info": [
       { "icon": "phone", "title": "02151 350 7935", "text": "Rund um die Uhr erreichbar" },
       { "icon": "email", "title": "info@karkor-haustechnik.de", "text": "Antwort innerhalb von 24h" },
-      { "icon": "star", "title": "100% digitaler Ablauf", "text": "Von der Kalkulation zum Angebot" }
+      { "icon": "star", "title": "100% transparenter Ablauf", "text": "Von der Anfrage zum Festpreis" }
     ]
   },
   "footer": {
@@ -341,407 +340,5 @@ window.__ASE_CONTENT__ = {
         ]
       }
     ]
-  },
-  "planer": {
-    "title": "Digitaler Erstberater",
-    "subtitle": "Qualifizieren Sie Ihr Projekt und erhalten Sie eine unverbindliche Budgetabschätzung in wenigen Schritten.",
-    "intro_btn": "Jetzt starten",
-    "btn_next": "Weiter",
-    "btn_back": "Zurück",
-    "btn_submit": "Anfrage absenden",
-    "rejection_title": "Projekt aktuell nicht möglich",
-    "success_title": "Ihr voraussichtliches Budget",
-    "rejection_sub": "Aufgrund Ihrer Angaben können wir dieses Projekt leider nicht direkt anbieten. Wir danken Ihnen dennoch für Ihr Interesse.",
-    "success_sub": "Vielen Dank für Ihre Angaben. Hier ist die unverbindliche Budgetabschätzung für Ihr Projekt:",
-    "email_subject": "Karkor Planer Anfrage - ",
-    "email_body_intro": "Hallo Karkor-Team,\n\nich habe den digitalen Planer ausgefüllt. Hier sind meine Projektdaten:\n\n",
-    "contact_info_title": "Ihre Kontaktdaten",
-    "contact_info_name": "Name",
-    "contact_info_email": "E-Mail-Adresse",
-    "contact_info_phone": "Telefonnummer",
-    "contact_info_address": "Ort / PLZ",
-    "services": {
-      "badsanierung": {
-        "title": "Badsanierung",
-        "description": "Komplett- oder Teilsanierung Ihres Badezimmers",
-        "questions": [
-          {
-            "id": "badgroesse",
-            "frage": "Wie groß ist Ihr Badezimmer in m²?",
-            "typ": "slider",
-            "min": 2,
-            "max": 40,
-            "default": 8,
-            "unit": "m²"
-          },
-          {
-            "id": "segment",
-            "frage": "Welche Qualitätsstufe wünschen Sie?",
-            "typ": "select",
-            "optionen": [
-              {"id": "standard_bad", "label": "Standard-Bad", "desc": "Solide Qualität, Standardkeramik, teilgeflieste Wände, einfache Duschabtrennung"},
-              {"id": "komfort_bad", "label": "Komfort-Bad", "desc": "Gehobene Ausstattung, bodengleiche Dusche, größere Fliesen, bessere Armaturen"},
-              {"id": "premium_bad", "label": "Premium-/Luxus-Bad", "desc": "Design-Ausstattung, freistehende Wanne, Design-Armaturen, XXL-Fliesen, fugenlos"}
-            ]
-          },
-          {
-            "id": "umfang",
-            "frage": "Welcher Umfang ist geplant?",
-            "typ": "select",
-            "optionen": [
-              {"id": "komplett_mit_leitungen", "label": "Komplette Badsanierung inkl. Leitungen", "desc": "Komplette Erneuerung aller Rohrleitungen und Sanitäranlagen"},
-              {"id": "komplett_ohne_leitungen", "label": "Komplette Badsanierung ohne Leitungswechsel", "desc": "Nur Austausch der Keramik und Fliesen"},
-              {"id": "teilsanierung", "label": "Teilsanierung (z.B. nur Dusche/WC)", "desc": "Punktuelle Modernisierung einzelner Bereiche"},
-              {"id": "nur_fliesen", "label": "Nur Oberflächen/Fliesen", "desc": "Ausschließlich neue Fliesen oder Wandbeläge"}
-            ]
-          },
-          {
-            "id": "zuschlaege",
-            "frage": "Wünschen Sie bestimmte Extras? (Mehrfachauswahl)",
-            "typ": "checkboxes",
-            "optionen": [
-              {"id": "walk_in_dusche", "label": "Bodengleiche Walk-in-Dusche", "desc": "Ebenerdige Dusche ohne Stufen"},
-              {"id": "freistehende_wanne", "label": "Freistehende Badewanne", "desc": "Luxus-Badewanne, Design-Element"},
-              {"id": "doppelwaschtisch", "label": "Doppelwaschtisch", "desc": "Waschtisch für zwei Personen"},
-              {"id": "rohrleitungswechsel", "label": "Austausch aller Leitungen im Bad", "desc": "Alle Rohrleitungen erneuert"},
-              {"id": "fussbodenheizung", "label": "Elektrische Fußbodenheizung / Badheizkörper", "desc": "Behagliche Bodenwärme"},
-              {"id": "spiegelschrank", "label": "Spiegelschrank mit LED-Beleuchtung", "desc": "Moderner Spiegelschrank, beleuchtet"},
-              {"id": "barrierefreiheit", "label": "Barrierefreie / altersgerechte Ausstattung", "desc": "Seniorengerecht, leicht zugänglich"},
-              {"id": "badluftung", "label": "Badlüftung / Ventilatorsystem", "desc": "Feuchtigkeitsschutz durch Ventilation"}
-            ]
-          },
-          {
-            "id": "baujahr",
-            "frage": "In welchem Jahr wurde das Gebäude errichtet?",
-            "typ": "number",
-            "placeholder": "z.B. 1985",
-            "default": 1980
-          },
-          {
-            "id": "asbest_verdacht",
-            "frage": "Gibt es einen bestätigten Asbest-Verdacht?",
-            "typ": "select",
-            "optionen": [
-              {"id": "nein", "label": "Nein / Unbekannt", "desc": "Keine Hinweise auf Schadstoffe"},
-              {"id": "verdacht", "label": "Verdacht", "desc": "Schadstoffbelastung vermutet"},
-              {"id": "bestaetigt", "label": "Bestätigt (ohne Sanierungskonzept)", "desc": "Asbest nachgewiesen, keine Fachsanierung geplant"}
-            ]
-          },
-          {
-            "id": "besondere_wuensche",
-            "frage": "Haben Sie ergänzende Wünsche oder Anmerkungen?",
-            "typ": "textarea",
-            "hinweis": "Optional – teilen Sie uns besondere Anforderungen, Vorstellungen oder Einschränkungen mit.",
-            "placeholder": "z.B. barrierefreier Zugang gewünscht, Arbeit nur in bestimmten Zeiträumen möglich ..."
-          },
-          {
-            "id": "budgetrahmen",
-            "frage": "Wie hoch ist Ihr geplantes Budget?",
-            "typ": "select",
-            "optionen": [
-              {"id": "unter_15", "label": "Unter 15.000 €", "desc": "Für kleinere Teilarbeiten"},
-              {"id": "15_25", "label": "15.000 € – 25.000 €", "desc": "Standard-Budget"},
-              {"id": "25_40", "label": "25.000 € – 40.000 €", "desc": "Komfort-Budget"},
-              {"id": "ueber_40", "label": "Über 40.000 €", "desc": "Premium-Budget"},
-              {"id": "erstgespraech", "label": "Wunschbudget im Erstgespräch klären", "desc": "Ich möchte das Budget persönlich besprechen"}
-            ]
-          }
-        ]
-      },
-      "waermepumpe": {
-        "title": "Wärmepumpe",
-        "description": "Installation einer modernen Luft-Wasser-Wärmepumpe",
-        "questions": [
-          {
-            "id": "paket",
-            "frage": "Welche Heizleistung wird voraussichtlich benötigt?",
-            "typ": "select",
-            "optionen": [
-              {"id": "lw_wp_bis_10kw", "label": "Bis 10 kW Heizlast", "desc": "Für Neubauten oder sehr gut gedämmte Einfamilienhäuser"},
-              {"id": "lw_wp_10_16kw", "label": "10 bis 16 kW Heizlast", "desc": "Für mittlere bis größere Einfamilienhäuser"},
-              {"id": "lw_wp_ueber_16kw", "label": "Über 16 kW Heizlast", "desc": "Für unsanierte Altbauten oder Mehrfamilienhäuser"}
-            ]
-          },
-          {
-            "id": "daemmstandard",
-            "frage": "Wie schätzen Sie den Dämmstandard des Hauses ein?",
-            "typ": "select",
-            "optionen": [
-              {"id": "neubau", "label": "Neubau / EnEV-Standard", "desc": "Sehr gute Energieeffizienz"},
-              {"id": "teilsaniert", "label": "Teilsaniert", "desc": "Fenster, Dach oder Fassade wurden modernisiert"},
-              {"id": "unsaniert", "label": "Unsaniert / Altbau", "desc": "Keine nennenswerte Dämmung vorhanden"}
-            ]
-          },
-          {
-            "id": "vorlauftemperatur",
-            "frage": "Welche Vorlauftemperatur wird an kalten Tagen benötigt?",
-            "typ": "select",
-            "optionen": [
-              {"id": "bis_45", "label": "Bis 45 °C", "desc": "Ideal für Wärmepumpen"},
-              {"id": "45_55", "label": "45 °C – 55 °C", "desc": "Gute Effizienz möglich"},
-              {"id": "ueber_55", "label": "Über 55 °C", "desc": "Eingeschränkte Wirtschaftlichkeit"},
-              {"id": "unsicher", "label": "Unbekannt / Unsicher", "desc": "Prüfen wir vor Ort"}
-            ]
-          },
-          {
-            "id": "waermeuebergabe",
-            "frage": "Welche Heizflächen sind überwiegend vorhanden?",
-            "typ": "select",
-            "optionen": [
-              {"id": "fussboden", "label": "Fußbodenheizung / Wandheizung", "desc": "Hervorragend geeignet"},
-              {"id": "heizkoerper_gross", "label": "Überdimensionierte Heizkörper", "desc": "Niedrige Vorlauftemperatur möglich"},
-              {"id": "heizkoerper_normal", "label": "Normale Radiatoren / Heizkörper", "desc": "Standard-Heizflächen"}
-            ]
-          },
-          {
-            "id": "aufstellort",
-            "frage": "Wo kann die Außeneinheit platziert werden?",
-            "typ": "select",
-            "optionen": [
-              {"id": "garten", "label": "Garten neben Haus", "desc": "Mindestens 3x3 m freie Fläche"},
-              {"id": "hof", "label": "Hof oder Terrasse", "desc": "Begrenzter Platz vorhanden"},
-              {"id": "dach", "label": "Dachmontage", "desc": "Auf dem Flach- oder Steildach"},
-              {"id": "keiner", "label": "Kein geeigneter Außenbereich", "desc": "Weder Garten noch Stellfläche vorhanden"}
-            ]
-          },
-          {
-            "id": "abstand_nachbar",
-            "frage": "Wie weit ist der Aufstellort von der Nachbargrenze entfernt?",
-            "typ": "select",
-            "optionen": [
-              {"id": "unter_1m", "label": "Unter 1 Meter", "desc": "Kritisch wegen TA Lärm"},
-              {"id": "1_3m", "label": "1 bis 3 Meter", "desc": "Regelfall, leise Geräte nötig"},
-              {"id": "ueber_3m", "label": "Über 3 Meter", "desc": "Unproblematisch"},
-              {"id": "unklar", "label": "Unklar / Muss gemessen werden", "desc": "Prüfen wir beim Vor-Ort-Termin"}
-            ]
-          },
-          {
-            "id": "stromanschluss",
-            "frage": "Ist ein Zählerschrank mit Reserve vorhanden?",
-            "typ": "select",
-            "optionen": [
-              {"id": "reserve", "label": "Ja, 3-phasiger Anschluss mit Reserve", "desc": "Keine Zählererweiterung nötig"},
-              {"id": "voll", "label": "Vorhanden, aber Zählerschrank voll", "desc": "Erweiterung/Umbau erforderlich"},
-              {"id": "unklar", "label": "Unklar / Eingeschränkte Leistung", "desc": "Prüfung durch Elektriker nötig"}
-            ]
-          },
-          {
-            "id": "extras",
-            "frage": "Wählen Sie optionale Zusatzarbeiten (Mehrfachauswahl)",
-            "typ": "checkboxes",
-            "optionen": [
-              {"id": "elektrik_ausbau", "label": "Zählerschrank/Elektrik-Erweiterung", "desc": "Elektrische Infrastruktur angepasst"},
-              {"id": "oeltank_entsorgung", "label": "Entsorgung alter Öltank", "desc": "Fachgerechte Entsorung"},
-              {"id": "asbest_heizraum", "label": "Asbest-Sanierung Heizungsraum", "desc": "Schadstoff-Sanierung durchgeführt"},
-              {"id": "niedertemperatur_heizkoerper", "label": "Tausch auf NT-Heizkörper", "desc": "Heizkörper für Wärmepumpen optimiert"},
-              {"id": "fundament", "label": "Fundament für Außengerät", "desc": "Sichere Aufstellung im Außenbereich"},
-              {"id": "pufferspeicher", "label": "Pufferspeicher / Warmwasserspeicher", "desc": "Speichertank für Warmwasser"},
-              {"id": "smart_home_waermepumpe", "label": "Smart-Home-Integration (Wärme-Steuerung)", "desc": "Intelligente Regelung per App"}
-            ]
-          },
-          {
-            "id": "foerder_klimabonus",
-            "frage": "Ersetzen Sie eine funktionierende Öl-, Kohle-, Gasetagen-, Nachtspeicherheizung oder eine >20 Jahre alte Gas-/Biomasseheizung? (Klimabonus)",
-            "typ": "select",
-            "optionen": [
-              {"id": "ja", "label": "Ja", "desc": "Qualifiziert Sie für den Klimageschwindigkeits-Bonus (+20%)"},
-              {"id": "nein", "label": "Nein", "desc": "Kein vorzeitiger Tausch einer solchen Heizung"}
-            ]
-          },
-          {
-            "id": "foerder_einkommen",
-            "frage": "Liegt Ihr zu versteuerndes Haushaltseinkommen als selbstnutzender Eigentümer unter 40.000 €/Jahr? (Einkommensbonus)",
-            "typ": "select",
-            "optionen": [
-              {"id": "ja", "label": "Ja", "desc": "Einkommens-Bonus (+30%)"},
-              {"id": "nein", "label": "Nein", "desc": "Einkommen über der Grenze"}
-            ]
-          },
-          {
-            "id": "foerder_kaeltemittel",
-            "frage": "Wählen Sie eine Wärmepumpe mit natürlichem Kältemittel oder Erd-/Wasserwärme? (Effizienzbonus)",
-            "typ": "select",
-            "optionen": [
-              {"id": "ja", "label": "Ja, natürliches Kältemittel gewünscht", "desc": "Effizienz-Bonus (+5%)"},
-              {"id": "nein", "label": "Nein / Standard-Kältemittel", "desc": "Kein Effizienz-Bonus"}
-            ]
-          },
-          {
-            "id": "besondere_wuensche",
-            "frage": "Haben Sie ergänzende Wünsche oder Anmerkungen?",
-            "typ": "textarea",
-            "hinweis": "Optional – teilen Sie uns besondere Anforderungen, Vorstellungen oder Einschränkungen mit.",
-            "placeholder": "z.B. barrierefreier Zugang gewünscht, Arbeit nur in bestimmten Zeiträumen möglich ..."
-          }
-        ]
-      },
-      "split_klima": {
-        "title": "Klimaanlage",
-        "description": "Split-Klimaanlage für angenehme Temperaturen",
-        "questions": [
-          {
-            "id": "raeume_anzahl",
-            "frage": "Wie viele Räume möchten Sie klimatisieren?",
-            "typ": "select",
-            "optionen": [
-              {"id": "single", "label": "1 Raum (Single-Split)", "desc": "Für einen Standardraum ca. 25-35 m²"},
-              {"id": "multi_2", "label": "2 Räume (Multi-Split)", "desc": "2 Innengeräte, 1 Außengerät"},
-              {"id": "multi_3_4", "label": "3–4 Räume (Multi-Split)", "desc": "3-4 Innengeräte, 1 Außengerät"}
-            ]
-          },
-          {
-            "id": "raumtyp",
-            "frage": "Um welchen Raumtyp handelt es sich primär?",
-            "typ": "select",
-            "optionen": [
-              {"id": "dach", "label": "Dachgeschoss", "desc": "Hohe Kühllast erforderlich"},
-              {"id": "wohnzimmer", "label": "Wohnzimmer", "desc": "Standard Kühllast"},
-              {"id": "schlafzimmer", "label": "Schlafzimmer", "desc": "Besonders leise Geräte empfohlen"},
-              {"id": "arbeitszimmer", "label": "Arbeitszimmer", "desc": "Standard Kühllast"},
-              {"id": "keller", "label": "Souterrain / Keller", "desc": "Geringe Kühllast"}
-            ]
-          },
-          {
-            "id": "aussenwand",
-            "frage": "Gibt es eine Außenwand in direkter Nähe des Innengeräts?",
-            "typ": "select",
-            "optionen": [
-              {"id": "ja_direkt", "label": "Ja, direkt dahinter", "desc": "Einfache Installation"},
-              {"id": "ja_weit", "label": "Ja, weiter entfernt", "desc": "Leitungstrasse erforderlich"},
-              {"id": "nein", "label": "Nein", "desc": "Kondensatpumpe oder Sonderweg nötig"}
-            ]
-          },
-          {
-            "id": "gebaeudeart",
-            "frage": "Welche Gebäudeart liegt vor?",
-            "typ": "select",
-            "optionen": [
-              {"id": "efh", "label": "Einfamilienhaus", "desc": "Freie Gestaltung"},
-              {"id": "etw", "label": "Eigentumswohnung", "desc": "WEG-Zustimmung erforderlich"},
-              {"id": "mietwohnung", "label": "Mietwohnung", "desc": "Vermieter-Zustimmung erforderlich"}
-            ]
-          },
-          {
-            "id": "weg_genehmigung",
-            "frage": "Liegt die Zustimmung der WEG bzw. des Vermieters vor?",
-            "typ": "select",
-            "optionen": [
-              {"id": "ja", "label": "Ja, schriftliche Zustimmung liegt vor", "desc": "Keine rechtlichen Hürden"},
-              {"id": "pruefung", "label": "Noch nicht, soll geprüft werden", "desc": "Wir unterstützen Sie bei Fragen"},
-              {"id": "nein", "label": "Nein / Ablehnende Haltung bekannt", "desc": "Montage rechtlich nicht zulässig"}
-            ]
-          },
-          {
-            "id": "denkmalschutz",
-            "frage": "Steht das Gebäude oder die Fassade unter Denkmalschutz?",
-            "typ": "select",
-            "optionen": [
-              {"id": "nein", "label": "Nein", "desc": "Standardmontage möglich"},
-              {"id": "ja", "label": "Ja", "desc": "Besondere Denkmalschutzauflagen vorhanden"},
-              {"id": "unklar", "label": "Unklar / Weiß nicht", "desc": "Muss abgeklärt werden"}
-            ]
-          },
-          {
-            "id": "extras",
-            "frage": "Wählen Sie preistreibende Faktoren (Mehrfachauswahl)",
-            "typ": "checkboxes",
-            "optionen": [
-              {"id": "leitung_lang", "label": "Leitungsweg > 5 m pro Gerät", "desc": "Lange Refrigerieranleitungen erforderlich"},
-              {"id": "bohrung_beton", "label": "Kernbohrung in Beton/KS", "desc": "Wanddurchbruch für Rohre"},
-              {"id": "dachmontage", "label": "Dachmontage des Außengeräts", "desc": "Montage auf dem Dach"},
-              {"id": "kondensatpumpe", "label": "Kondensatpumpe nötig", "desc": "Ableitpumpe für Kondenswasser"},
-              {"id": "rohrkanal", "label": "Rohr-/Kabelkanal-Verkleidung", "desc": "Saubere Rohrabdeckung"},
-              {"id": "smart_home_klima", "label": "WLAN-Steuerung / Smart-Home", "desc": "Klimaanlage per App steuern"}
-            ]
-          },
-          {
-            "id": "besondere_wuensche",
-            "frage": "Haben Sie ergänzende Wünsche oder Anmerkungen?",
-            "typ": "textarea",
-            "hinweis": "Optional – teilen Sie uns besondere Anforderungen, Vorstellungen oder Einschränkungen mit.",
-            "placeholder": "z.B. barrierefreier Zugang gewünscht, Arbeit nur in bestimmten Zeiträumen möglich ..."
-          }
-        ]
-      },
-      "heizung": {
-        "title": "Heizung modernisieren",
-        "description": "Tausch auf moderne Gas-Brennwert- oder Hybridsysteme",
-        "questions": [
-          {
-            "id": "paket",
-            "frage": "Welche Heizungstechnik soll installiert werden?",
-            "typ": "select",
-            "optionen": [
-              {"id": "gas_solo", "label": "Gas-Brennwertgerät (Solo)", "desc": "Kompakter Kesseltausch"},
-              {"id": "gas_hybrid_ready", "label": "Gas-Brennwert mit Hybrid-Vorbereitung", "desc": "Bereit für Wärmepumpe/Solarthermie"},
-              {"id": "gas_solar_ww", "label": "Gas-Brennwert + Solarthermie Warmwasser", "desc": "Inkl. Solarkollektoren für Trinkwasser"},
-              {"id": "gas_solar_heizung", "label": "Gas-Brennwert + Solar Heizungsunterstützung", "desc": "Heizungsunterstützung & Warmwasser"}
-            ]
-          },
-          {
-            "id": "brennstoff_bisher",
-            "frage": "Welcher Brennstoff wird aktuell genutzt?",
-            "typ": "select",
-            "optionen": [
-              {"id": "erdgas", "label": "Erdgas", "desc": "Gasanschluss vorhanden"},
-              {"id": "fluessiggas", "label": "Flüssiggas", "desc": "Tank vorhanden oder geplant"},
-              {"id": "oel", "label": "Heizöl", "desc": "Tausch nötig, ggf. Tankentsorgung"},
-              {"id": "strom", "label": "Stromdirektheizung", "desc": "Hohe Betriebskosten bisher"},
-              {"id": "sonstiges", "label": "Sonstiges", "desc": "Holz, Kohle etc."}
-            ]
-          },
-          {
-            "id": "erdgasanschluss",
-            "frage": "Ist ein Erdgasanschluss im Gebäude vorhanden?",
-            "typ": "select",
-            "optionen": [
-              {"id": "ja", "label": "Ja", "desc": "Bestehender Anschluss nutzbar"},
-              {"id": "nein_flg", "label": "Nein, nur Flüssiggas möglich", "desc": "Flüssiggaskonzept nötig"},
-              {"id": "nein_kein", "label": "Nein, kein Gasanschluss vorhanden", "desc": "Kein Gasanschluss und kein Flüssiggas möglich"}
-            ]
-          },
-          {
-            "id": "abgassystem",
-            "frage": "Welches Abgassystem ist vorhanden?",
-            "typ": "select",
-            "optionen": [
-              {"id": "schornstein", "label": "Gemauerter Schornstein", "desc": "Kunststoffrohr-Einzug erforderlich"},
-              {"id": "las", "label": "Bereits Kunststoff-Abgasleitung (LAS)", "desc": "Ggf. direkt nutzbar"},
-              {"id": "aussenwand", "label": "Außenwandgerät ohne Schornstein", "desc": "Sonderabgasführung"},
-              {"id": "unklar", "label": "Unbekannt / Unsicher", "desc": "Prüfen wir vor Ort"}
-            ]
-          },
-          {
-            "id": "solardach",
-            "frage": "Ist das Dach für Solarthermie geeignet?",
-            "typ": "select",
-            "optionen": [
-              {"id": "ja", "label": "Ja, unverschattete Fläche vorhanden", "desc": "Ausrichtung Süd/Ost-West"},
-              {"id": "teilweise", "label": "Teilweise geeignet", "desc": "Ggf. reduzierte Erträge"},
-              {"id": "nein", "label": "Nein / Kaum geeignet", "desc": "Verschattung oder falsche Neigung"}
-            ]
-          },
-          {
-            "id": "extras",
-            "frage": "Zusätzliche Komponenten auswählen (Mehrfachauswahl)",
-            "typ": "checkboxes",
-            "optionen": [
-              {"id": "schornsteinsanierung", "label": "Schornsteinsanierung (Rohr einziehen)", "desc": "Schornstein saniert und modernisiert"},
-              {"id": "gasanschluss_neu", "label": "Neuer Erdgas-Hausanschluss", "desc": "Gasversorgung neu hergestellt"},
-              {"id": "fluessiggas_tank", "label": "Flüssiggas-Tank inkl. Aufstellung", "desc": "Tank aufgestellt und angeschlossen"},
-              {"id": "heizkoerperwechsel", "label": "Heizkörpertausch", "desc": "Neue Heizkörper montiert"},
-              {"id": "smart_home_heizung", "label": "Smart-Home-Thermostate", "desc": "Intelligente Temperaturregelung per App"}
-            ]
-          },
-          {
-            "id": "besondere_wuensche",
-            "frage": "Haben Sie ergänzende Wünsche oder Anmerkungen?",
-            "typ": "textarea",
-            "hinweis": "Optional – teilen Sie uns besondere Anforderungen, Vorstellungen oder Einschränkungen mit.",
-            "placeholder": "z.B. barrierefreier Zugang gewünscht, Arbeit nur in bestimmten Zeiträumen möglich ..."
-          }
-        ]
-      }
-    }
   }
 };
