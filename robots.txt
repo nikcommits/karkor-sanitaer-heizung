@@ -1,4 +1,4 @@
-# robots.txt — Karkor Haustechnik (karkorshk.de)
+# robots.txt — Karkor Haustechnik (www.karkor-shk.de)
 # Policy: Trainings-Scraper blockieren, Live-Retrieval erlauben
 # Stand: 2026-05-29
 
@@ -50,4 +50,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://karkorshk.de/sitemap.xml
+Sitemap: https://www.karkor-shk.de/sitemap.xml
