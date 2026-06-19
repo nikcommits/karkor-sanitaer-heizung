@@ -162,10 +162,13 @@ footer.site .bottom{
 footer.site .bottom a{color:var(--ink-3);margin-left:18px;transition:color .15s}
 footer.site .bottom a:hover{color:var(--blue)}
 
-/* Agency Badge */
-.nf-footer-badge { position: relative; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; text-decoration: none; margin-left: 24px !important; }
-.nf-footer-ring { position: absolute; inset: 0; width: 100%; height: 100%; animation: nf-spin 12s linear infinite; }
-.nf-footer-ring-text { font-size: 11px; font-weight: 700; letter-spacing: .05em; fill: rgba(0,0,0,.6); font-family: system-ui, sans-serif; }
-.nf-footer-logo { width: 36px !important; height: 36px !important; border-radius: 50%; object-fit: cover; position: relative; z-index: 1; display: block !important; }
-.nf-footer-badge:hover .nf-footer-ring { animation-duration: 4s; }
-@keyframes nf-spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+/* Agency Creator Badge */
+.nf-creator-wrapper { position: relative; display: inline-block; margin-left: 4px; }
+.nf-creator-link { color: var(--ink-3); text-decoration: underline; text-underline-offset: 2px; transition: color 0.2s; }
+.nf-creator-link:hover { color: var(--blue); }
+.nf-creator-popup { position: absolute; bottom: 100%; left: 0; transform: translateY(10px); opacity: 0; visibility: hidden; background: #fff; border: 1px solid var(--hair); border-radius: 8px; padding: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: all 0.2s; width: max-content; z-index: 100; display: flex; gap: 12px; align-items: center; pointer-events: none; }
+.nf-creator-wrapper:hover .nf-creator-popup { opacity: 1; visibility: visible; transform: translateY(-8px); pointer-events: auto; }
+.nf-creator-popup a { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--ink) !important; text-decoration: none; font-weight: 500; padding: 6px 10px; border-radius: 4px; background: #f5f5f5; transition: background 0.2s; margin-left: 0 !important; }
+.nf-creator-popup a:hover { background: #e5e5e5; }
+.nf-creator-popup a.whatsapp { background: #25d366; color: #fff !important; }
+.nf-creator-popup a.whatsapp:hover { background: #20bd5a; color: #fff !important; }

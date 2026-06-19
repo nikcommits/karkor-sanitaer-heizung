@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="karkor-tokens.css?v=4" />
+<link rel="stylesheet" href="karkor-tokens.css?v=5" />
 <link rel="stylesheet" href="styles/layout.css?v=3" />
 </head>
 <body>
@@ -108,23 +108,26 @@
         </div>
       </div>
       <div class="bottom">
-        <span>© 2026 Karkor Haustechnik. Alle Rechte vorbehalten.</span>
-        <span style="display:flex;align-items:center;">
-          <a href="impressum.html">Impressum</a>
-          <a href="datenschutz.html">Datenschutz</a>
-          <a href="https://fruehschulz.net/" target="_blank" rel="noopener" class="nf-footer-badge" aria-label="Website von Nik Frühschulz – Web Performance">
-            <svg class="nf-footer-ring" viewBox="0 0 120 120" aria-hidden="true">
-              <defs>
-                <path id="nf-footer-circle" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/>
-              </defs>
-              <text class="nf-footer-ring-text">
-                <textPath href="#nf-footer-circle" startOffset="0%">FRÜHSCHULZ WEB PERFORMANCE · WEB DESIGN · MARKETING · VOICE AGENTS ·</textPath>
-              </text>
-            </svg>
-            <img src="assets/nf-logo.webp" alt="Frühschulz Web Performance" class="nf-footer-logo">
-          </a>
-        </span>
+  <span style="display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+    <span>© 2026 Karkor Haustechnik. Alle Rechte vorbehalten.</span>
+    <span style="opacity:0.3">|</span>
+    <span class="nf-creator-wrapper">
+      Erstellt von <a href="https://fruehschulz.net/" target="_blank" rel="noopener" class="nf-creator-link">Nik Frühschulz Web Performance</a>
+      <div class="nf-creator-popup">
+        <img src="assets/nik-photo.webp" alt="Nik" style="width:32px; height:32px; border-radius:50%; margin:0;">
+        <div style="display:flex; flex-direction:column; gap:4px;">
+          <a href="https://fruehschulz.net/" target="_blank" rel="noopener">Website</a>
+          <a href="https://wa.me/4921519288542?text=Hallo%20Nick%2C%20ich%20interessiere%20mich%20f%C3%BCr%20deine%20Leistungen." class="whatsapp" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
       </div>
+    </span>
+  </span>
+  <span>
+    <a href="impressum.html">Impressum</a>
+    <a href="datenschutz.html">Datenschutz</a>
+  </span>
+</div>
+
     </div>
   </footer>
 
