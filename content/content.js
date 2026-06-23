@@ -212,7 +212,8 @@ window.__ASE_CONTENT__ = {
       { "id": "all", "label": "Alle Projekte" },
       { "id": "luxus", "label": "Exklusive Bäder" },
       { "id": "modern", "label": "Moderne Bäder" },
-      { "id": "kompakt", "label": "Kompaktbäder & WCs" }
+      { "id": "kompakt", "label": "Kompaktbäder & WCs" },
+      { "id": "heizung", "label": "Heizungstechnik" }
     ],
     "items": [
       {
@@ -336,6 +337,46 @@ window.__ASE_CONTENT__ = {
           {
             "src": "assets/projekte/unterputz-armatur-badewanne-edelstahl.webp",
             "alt": "Detailansicht der wandbündig montierten Unterputz-Mischbatterie und Brausegarnitur aus gebürstetem Edelstahl."
+          }
+        ]
+      },
+      {
+        "id": "projekt-g",
+        "title": "Elegantes Design-Bad mit LED-Lichtkonzept",
+        "location": "Krefeld-Bockum",
+        "category": "luxus",
+        "category_label": "Luxusbad",
+        "description": "Komplette Badsanierung mit Fokus auf warme Erdtöne und hochwertiges Design. Das absolute Highlight ist die durchgehende Vorwandinstallation mit stimmungsvoller, indirekter LED-Beleuchtung. Ausgestattet mit einer geräumigen Badewanne, Aufsatzwaschbecken auf dunkler Marmorplatte, wandhängendem WC mit schwarzem Betätigungsfeld und einer modernen Echtglas-Duschkabine.",
+        "images": [
+          {
+            "src": "assets/projekte/projekt-g-bad-1.webp",
+            "alt": "Modernes Badezimmer mit eleganter Badewanne und Aufsatzwaschbecken auf dunkler Marmorplatte."
+          },
+          {
+            "src": "assets/projekte/projekt-g-bad-2.webp",
+            "alt": "Aufsatzwaschbecken und moderne Armatur im sanierten Design-Bad."
+          },
+          {
+            "src": "assets/projekte/projekt-g-bad-3.webp",
+            "alt": "Wandhängendes WC mit schwarzer Drückerplatte und indirekter LED-Beleuchtung in der Vorwand."
+          },
+          {
+            "src": "assets/projekte/projekt-g-bad-4.webp",
+            "alt": "Gesamtansicht des neuen Badezimmers mit bodengleicher Echtglas-Duschkabine."
+          }
+        ]
+      },
+      {
+        "id": "projekt-h",
+        "title": "Fachgerechte Heizungsinstallation",
+        "location": "Krefeld",
+        "category": "heizung",
+        "category_label": "Heizungstechnik",
+        "description": "Installation einer modernen und effizienten Heizungsanlage. Übersichtliche und fachgerechte Montage von Warmwasserspeicher, Ausdehnungsgefäß und hocheffizienten Heizkreispumpen. Präzise Rohrführung mit Pressfittings im gesamten Heizungskeller für maximale Zuverlässigkeit und Langlebigkeit.",
+        "images": [
+          {
+            "src": "assets/projekte/projekt-h-heizung-1.webp",
+            "alt": "Professionelle Installation einer modernen Heizungsanlage mit Warmwasserspeicher und Heizkreispumpen im Keller."
           }
         ]
       }
