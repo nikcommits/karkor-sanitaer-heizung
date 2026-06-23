@@ -361,7 +361,7 @@ window.__ASE_CONTENT__ = {
             "alt": "Wandhängendes WC mit schwarzer Drückerplatte und indirekter LED-Beleuchtung in der Vorwand."
           },
           {
-            "src": "assets/projekte/projekt-g-bad-4.webp",
+            "src": "assets/projekte/projekt-g-bad-4-v2.webp",
             "alt": "Gesamtansicht des neuen Badezimmers mit bodengleicher Echtglas-Duschkabine."
           }
         ]
@@ -375,7 +375,7 @@ window.__ASE_CONTENT__ = {
         "description": "Installation einer modernen und effizienten Heizungsanlage. Übersichtliche und fachgerechte Montage von Warmwasserspeicher, Ausdehnungsgefäß und hocheffizienten Heizkreispumpen. Präzise Rohrführung mit Pressfittings im gesamten Heizungskeller für maximale Zuverlässigkeit und Langlebigkeit.",
         "images": [
           {
-            "src": "assets/projekte/projekt-h-heizung-1.webp",
+            "src": "assets/projekte/projekt-h-heizung-1-v2.webp",
             "alt": "Professionelle Installation einer modernen Heizungsanlage mit Warmwasserspeicher und Heizkreispumpen im Keller."
           }
         ]
