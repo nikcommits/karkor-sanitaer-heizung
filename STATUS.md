@@ -1,8 +1,12 @@
 # Status: Karkor SHK Webseite
 
-**Zuletzt aktualisiert:** 2026-05-25
+- **Status:** 🟢 Live & Wartung (Abgeschlossen & bezahlt Juni 2026)
+- **Live-Domain:** https://www.karkor-shk.de
+- **Deployment-Quelle:** GitHub-Repository, mit Cloudflare verbunden (laut Nik)
+- **Öffentliche Prüfung:** 2026-10-07: Cloudflare-Nameserver; HTTPS-Antwort HTTP 200 über Cloudflare. Der öffentliche Check zeigt den vorgeschalteten Dienst, aber nicht sicher den Ursprungshoster oder ob Cloudflare Pages verwendet wird.
+- **Zuletzt aktualisiert:** 2026-10-07
 
-## Was ist fertig
+## Implementierung
 
 - Komplette Website (index, planer, projekte, impressum, datenschutz)
 - ASE-Architektur (content.json + ase-bridge.js + content.js Fallback)
@@ -12,15 +16,13 @@
 - Budgetrechner (`planer.html`) mit KfW-Förderrechner
 - SEO: JSON-LD LocalBusiness, Open Graph, robots.txt, llms.txt
 - DSGVO: impressum.html, datenschutz.html
-- GitHub Pages deployed: https://nikcommits.github.io/karkor-sanitaer-heizung/
-- Cache-Busting via `?v=3` in Script-Imports
+- Stylesheet cache-busting: `styles/layout.css?v=3` (matches the current local `index.html`)
 
-## Wichtige Hinweise
+## Historischer Stand (Mai–Juni 2026)
 
-- **Zwei Umgebungen:** GitHub Pages (Test) ≠ karkorshk.de (Produktion/WordPress)
-- Live-Update auf karkorshk.de = manueller FTP-Upload
-- Sync zwischen Kundenordner und Git-Ordner: `robocopy C:\Users\nikfr\Dev\02_Kundenprojekte\karkor-shk\final C:\Users\nikfr\Dev\03_Websites\karkor-sanitaer-heizung /E`
-- Bei Textänderungen: Versionsnummer erhöhen (`content.js?v=X`)
+- Frühere Projektakte beschrieb GitHub Pages als Test und Strato/WordPress mit manuellem Upload als Produktion. Diese Hosting-Angabe ist überholt und kein aktueller Deploy-Schritt.
+- GitHub-Pages-Vorschau: `https://nikcommits.github.io/karkor-sanitaer-heizung/` (historische Testumgebung, nicht die bestätigte Produktionsadresse).
+- Bei Textänderungen im bestehenden ASE-Aufbau Versionsnummer erhöhen (`content.js?v=X`), sofern die betreffende Datei weiterhin so eingebunden ist.
 
 ## Offen
 

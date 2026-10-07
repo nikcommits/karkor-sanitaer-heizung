@@ -1,5 +1,7 @@
 # TODO — Karkor SHK
 
-Quelle: migriert aus PersonalOS todo.md, 22.09.2026.
+- [x] Website fertiggestellt, SEO- und KI-Crawler-Optimierung abgeschlossen (Mai 2026)
+- [x] Domain-Migration auf `www.karkor-shk.de` abgeschlossen (Juni 2026)
+- [x] Rechnung versendet und bezahlt (Juni 2026)
 
-- [ ] Domain & DNS: Domainzugang/DNS für `karkorshk.de` und Cloudflare-Hosting klären.
+**Aktueller Status:** Keine offenen Entwicklungsaufgaben. Projekt ist live und abgeschlossen.
